@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  image: "assets/logos/nbis-scilifelab.png"
+  favicon: "assets/favicon.png"
+  navbar:
+    logo: "assets/logos/nbis-scilifelab.png"
+    logo-alt: "NBIS SciLifeLab logo."
+    left:
+      - text: "Home"
+        href: "index.html"
+  page-footer:
+    border: false
+    left: "2023 [NBIS](https://nbis.se)"
+    right: "Published with [Quarto](https://quarto.org/)"
+  sidebar:
+    contents:
+      - section: Reports
+        contents: "reports/*"
+      - "completion.qmd"
+      - "tips.qmd"
+
+format:
+  html:
+    theme: "assets/css/custom.scss"
+    smooth-scroll: true
+    toc: true
+    toc-depth: 4
+    toc-location: right
+    number-sections: true
+    number-depth: 4
+    code-fold: true
+    code-tools: false
+    code-copy: true
+    code-overflow: wrap
+    df-print: paged
+    standalone: false
+    fig-align: left
+    title-block-banner: "#E9F2D1"
+    author: "John Doe"
+    date:  last-modified
+    date-format: "DD-MMM-YYYY"
+    lightbox: 
+      match: auto
+
+knitr:
+  opts_chunk:
+    results: hold
+
+execute:
+  eval: true
+  echo: true
+  warning: false
+  message: false
+  freeze: auto
+
+filters:
+  - lightbox
+  
+

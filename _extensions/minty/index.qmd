@@ -1,0 +1,30 @@
+---
+title: "Project title"
+subtitle: "NBIS support XXXX"
+date: ""
+author: ""
+toc: false
+number-sections: false
+title-block-banner: false
+format: html
+execute:
+  freeze: false
+---
+
+::: {.alert .alert-primary}
+**NBIS ID**: XXXX  
+**Request by**: John Doe (john.doe@ki.se)  
+**Principal Investigator**: John Doe (john.doe@ki.se)  
+**Organisation**: Some University  
+**NBIS Staff**: John Doe (john.doe@nbis.se)  
+:::
+
+**Support request**
+
+Long description of the support request.
+
+---
+
+::: {.small}
+Updated: {{< fa calendar >}} `r format(Sys.time(),format='%d-%b-%Y')` at {{< fa clock >}} `r format(Sys.time(),format='%X')`.
+:::

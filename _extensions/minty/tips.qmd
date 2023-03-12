@@ -1,0 +1,8 @@
+---
+title: "Tips"
+---
+
+- Of course, remove this file `tips.qmd` from the actual report and from `_quarto.yml`.
+- To remove automatic list of files from the sidebar, remove `sidebar` from `_quarto.yml`.
+  - You can optionally manually link reports in `index.qmd`.
+- Include `completion.qmd` on completion of the project else remove it.

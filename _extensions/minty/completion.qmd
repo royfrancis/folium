@@ -1,0 +1,25 @@
+---
+title: "Completion"
+---
+
+## Data responsibility
+
+The responsibility for data archiving lies with the PI of the project. We do not offer long-term storage or retrieval of data.
+
++ __NBIS & Uppnex: __ We kindly ask that you remove the files from UPPMAX/UPPNEX. The main storage at UPPNEX is optimized for high-speed and parallel access, which makes it expensive and not the right place for longer time archiving. Please consider others by not taking up the expensive space. Please note that UPPMAX is a resource separate from the Bioinformatics Platform, administered by the Swedish National Infrastructure for Computing (SNIC) and SNIC-specifc project rules apply to all projects hosted at UPPMAX.   
++ __Sensitive data :__ Please note that special considerations may apply to the human-derived legally considered sensitive personal data. These should be handled according to specific laws and regulations as outlined e.g. [here](http://nbis.se/support/human-data.html).  
++ __Long-term backup :__ We recommend asking your local IT for support with long-term data archiving. Also a newly established [Data Office](https://www.scilifelab.se/data/) at SciLifeLab may be of help to discuss other options.  
+
+## Acknowledgments
+
+If you are presenting the results in a paper, at a workshop or conference, we kindly ask you to acknowledge us.
+
++ __NBIS staff__ are encouraged to be co-authors when this is merited in accordance to the ethical recommendations for authorship, e.g. [ICMJE recommendations](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html). If applicable, please include __Name, Surname, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Further Affliations__, as co-author. In other cases, NBIS would be grateful if support by us is acknowledged in publications according to this example:
+
+> "Support by NBIS (National Bioinformatics Infrastructure Sweden) is gratefully acknowledged."
++ __UPPMAX__ kindly asks you to [acknowledge UPPMAX and SNIC](https://www.uppmax.uu.se/support/faq/general-miscellaneous-faq/acknowledging-uppmax--snic--and-uppnex/). If applicable, please add:
+
+> "The computations were performed on resources provided by SNIC through Uppsala Multidisciplinary Center for Advanced Computational Science (UPPMAX) under Project SNIC XXXX."
++ __NGI :__ For publications based on data from NGI Sweden, NGI, SciLifeLab and UPPMAX should be [acknowledged](https://ngisweden.scilifelab.se/info/faq#how-do-i-acknowledge-ngi-in-my-publication) like so:  
+
+> "The authors would like to acknowledge support from Science for Life Laboratory (SciLifeLab), the National Genomics Infrastructure (NGI), and Uppsala Multidisciplinary Center for Advanced Computational Science (UPPMAX) for providing assistance in massive parallel sequencing and computational infrastructure."
