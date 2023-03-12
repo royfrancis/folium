@@ -1,0 +1,5 @@
+docs/
+**/*_files
+**/*_cache
+/.luarc.json
+/.quarto/

@@ -14,7 +14,7 @@ website:
   page-footer:
     border: false
     left: "2023 [NBIS](https://nbis.se)"
-    right: "Published with [Quarto](https://quarto.org/)"
+    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
   sidebar:
     contents:
       - section: Reports
@@ -57,6 +57,7 @@ execute:
   freeze: auto
 
 filters:
+  - assets/custom.lua
   - lightbox
   
 

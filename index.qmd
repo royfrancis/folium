@@ -26,5 +26,5 @@ Long description of the support request.
 ---
 
 ::: {.small}
-Updated: {{< fa calendar >}} `r format(Sys.time(),format='%d-%b-%Y')` at {{< fa clock >}} `r format(Sys.time(),format='%X')`.
+Updated: <?lua.date?> at <?lua.time?>.
 :::

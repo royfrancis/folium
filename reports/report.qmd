@@ -5,6 +5,6 @@ description: "Report description"
 code-tools: true
 ---
 
-## Heading 1
+## Heading
 
 Content
