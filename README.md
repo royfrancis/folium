@@ -15,10 +15,16 @@ A quarto website template for project reports.
 quarto use template royfrancis/minty-quarto-website
 ```
 
-- Launch preview
+- Launch preview in the browser
 
 ```
 quarto preview
+```
+
+- Render all html files into `docs` directory
+
+```
+quarto render
 ```
 
 ## Tips
@@ -38,6 +44,11 @@ quarto preview
 ```
 
 - Add/modify reports in the `reports` directory as needed
+- To selectively preview/render files:
+  ```
+  quarto preview reports/report.qmd
+  quarto render reports/report.qmd
+  ```
 - To remove automatic list of files from the sidebar, remove `sidebar` from `_quarto.yml`.
   - You can optionally manually link reports in `index.qmd` like this:
 
