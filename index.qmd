@@ -1,17 +1,16 @@
 ---
-title: "Project title"
-subtitle: "NBIS support XXXX"
+title: "NBIS support XXXX"
+subtitle: "Project title"
 date: ""
 author: ""
 toc: false
 number-sections: false
-title-block-banner: false
 format: html
 execute:
   freeze: false
 ---
 
-::: {.alert .alert-primary}
+::: {.alert .alert-secondary}
 **NBIS ID**: XXXX  
 **Request by**: John Doe (john.doe@ki.se)  
 **Principal Investigator**: John Doe (john.doe@ki.se)  

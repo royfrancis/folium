@@ -13,14 +13,13 @@ website:
         href: "index.html"
   page-footer:
     border: false
-    left: "2023 [NBIS](https://nbis.se)"
+    left: "<?lua.year?> [NBIS](https://nbis.se)"
     right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
   sidebar:
     contents:
       - section: Reports
         contents: "reports/*"
       - "completion.qmd"
-      - "tips.qmd"
 
 format:
   html:
