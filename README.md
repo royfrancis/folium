@@ -6,6 +6,8 @@ A quarto website template for project reports.
 
 ![](preview-b.png)
 
+For a demo site, see [here](https://royfrancis.github.io/minty-quarto-website).
+
 ## Usage
 
 - Required quarto 1.2.335 or higher
