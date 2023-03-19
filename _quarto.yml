@@ -23,6 +23,7 @@ website:
 
 format:
   html:
+    quarto-required: ">=1.2.2"
     theme: "assets/css/custom.scss"
     smooth-scroll: true
     toc: true
