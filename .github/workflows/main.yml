@@ -1,8 +1,8 @@
 name: deploy
 on:
   push:
-    branches-ignore:
-      - gh-pages
+    branches:
+      - main
 jobs:
   rmd-render-job:
     strategy:
