@@ -5,3 +5,5 @@ preview*
 docs
 **/*_cache
 **/*_files
+reports/demo.qmd
+minty.png
