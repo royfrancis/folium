@@ -6,4 +6,5 @@ docs
 **/*_cache
 **/*_files
 reports/demo.qmd
+reports/assets/featured.jpg
 minty.png
