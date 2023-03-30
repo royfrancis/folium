@@ -21,7 +21,14 @@ jobs:
         uses: r-lib/actions/setup-r@v2
         with:
           r-version: ${{ matrix.config.r }}
+      - name: Cache R packages
+        id: cache-r-packages
+        uses: actions/cache@v3
+        with:
+          path: "/home/runner/work/_temp/Library"
+          key: ${{runner.os}}-${{matrix.r}}-$(ls /home/runner/work/_temp/Library/ | sha256sum)
       - name: Install R packages
+        if: steps.cache-r-packages.outputs.cache-hit != 'true'
         run: |
           Rscript -e 'install.packages(c("dplyr", "tidyr", "stringr", "htmlTable", "kableExtra", "formattable", "DT", "reactable", "ggplot2", "highcharter", "plotly", "ggiraph", "dygraphs", "networkD3", "leaflet", "crosstalk", "fontawesome", "knitr"), repos="https://cloud.r-project.org/")'
       - name: Setup quarto
