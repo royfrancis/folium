@@ -30,7 +30,7 @@ jobs:
       - name: Install R packages
         if: steps.cache-r-packages.outputs.cache-hit != 'true'
         run: |
-          Rscript -e 'install.packages(c("dplyr", "tidyr", "stringr", "htmlTable", "kableExtra", "formattable", "DT", "reactable", "ggplot2", "highcharter", "plotly", "ggiraph", "dygraphs", "networkD3", "leaflet", "crosstalk", "fontawesome", "knitr"), repos="https://cloud.r-project.org/")'
+          Rscript -e 'install.packages(c("dplyr", "tidyr", "stringr", "htmlTable", "kableExtra", "formattable", "DT", "reactable", "ggplot2", "rbokeh", "highcharter", "plotly", "ggiraph", "dygraphs", "networkD3", "leaflet", "crosstalk", "fontawesome", "knitr"), repos="https://cloud.r-project.org/")'
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
