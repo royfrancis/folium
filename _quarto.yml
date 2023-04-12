@@ -25,7 +25,7 @@ format:
   html:
     quarto-required: ">=1.2.2"
     theme: "assets/css/custom.scss"
-    include-in-header: "assets/fonts/head.html"
+    include-in-header: "assets/head.html"
     smooth-scroll: true
     toc: true
     toc-depth: 4
