@@ -1,5 +1,5 @@
 ---
-title: NBIS Report
+title: Demo Report
 subtitle: Demo report
 description: "Demo report to showcase quarto and R functionality"
 code-tools: true
@@ -521,6 +521,8 @@ For simple cases, tables can be manually created in markdown.
 |4    |   2|
 |4    |  10|
 |7    |   4|
+
+: Markdown table {#tbl-markdown}
 ```
 
 |speed|dist|
@@ -528,6 +530,8 @@ For simple cases, tables can be manually created in markdown.
 |4    |   2|
 |4    |  10|
 |7    |   4|
+
+: Markdown table {#tbl-markdown}
 
 ### htmlTable
 
@@ -544,7 +548,18 @@ htmlTable(iris1, rgroup=unique(iris1$Species), n.rgroup=rle(as.character(iris1$S
 
 Simple table using `kable` from R package `knitr`. This is the default output for quarto.
 
+````
+```{{r}}
+#| label: tbl-kable
+#| tbl-cap: Kable table
+head(iris)
+```
+````
+
 ```{r}
+#| label: tbl-kable
+#| tbl-cap: Kable table
+#| echo: false
 head(iris)
 ```
 

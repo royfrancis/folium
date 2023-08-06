@@ -28,7 +28,7 @@ format:
     include-in-header: "assets/head.html"
     smooth-scroll: true
     toc: true
-    toc-depth: 4
+    toc-depth: 5
     toc-location: right
     number-sections: true
     number-depth: 4
@@ -46,6 +46,13 @@ format:
     lightbox: 
       match: auto
 
+crossref:
+  fig-title: '**Fig**'
+  fig-labels: arabic
+  tbl-title: '**Tab**'
+  tbl-labels: arabic
+  title-delim: "**:**"
+  
 knitr:
   opts_chunk:
     results: hold
