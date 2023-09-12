@@ -45,13 +45,6 @@ format:
     date-format: "DD-MMM-YYYY"
     lightbox: 
       match: auto
-
-crossref:
-  fig-title: '**Fig**'
-  fig-labels: arabic
-  tbl-title: '**Tab**'
-  tbl-labels: arabic
-  title-delim: "**:**"
   
 knitr:
   opts_chunk:
