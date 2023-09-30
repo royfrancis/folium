@@ -21,6 +21,19 @@ website:
         contents: "reports/*"
       - "completion.qmd"
 
+nbis:
+  id: "0000"
+  client: 
+    name: "John Doe"
+    email: "john.doe@email.com"
+    org: "Some university"
+  pi:
+    name: "John Doe"
+    email: "john.doe@email.com"
+  analyst:
+    name: "John Doe"
+    email: "john.doe@nbis.se"
+
 format:
   html:
     quarto-required: ">=1.2.2"
@@ -40,7 +53,7 @@ format:
     standalone: false
     fig-align: left
     title-block-banner: "#E9F2D1"
-    author: "John Doe"
+    author: "{{< meta nbis.analyst.name >}}"
     date:  last-modified
     date-format: "DD-MMM-YYYY"
     lightbox: 

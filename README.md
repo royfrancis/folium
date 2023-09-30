@@ -47,7 +47,7 @@ quarto render
 
 ```
 
-- Update `author: "John Doe"` in **_quarto.yml**
+- Update `nbis` variables in **_quarto.yml**
 - Add/modify reports in the `reports` directory as needed
 - To selectively preview/render files:
   ```

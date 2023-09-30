@@ -1,6 +1,6 @@
 ---
 title: Report
-subtitle: Support XXXX
+subtitle: "NBIS support {{< meta nbis.id >}}"
 description: "Report description"
 code-tools: true
 ---
@@ -15,4 +15,4 @@ Content
 ## Practical info
 ### Software
 
-
+List of tools and versions or session info.
