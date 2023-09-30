@@ -46,7 +46,7 @@
     "href": "reports/report.html#practical-info",
     "title": "Report",
     "section": "3 Practical info",
-    "text": "3 Practical info\n\n3.1 Software"
+    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info."
   },
   {
     "objectID": "reports/demo.html",
@@ -156,8 +156,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NBIS support XXXX",
+    "title": "NBIS support 0000",
     "section": "",
-    "text": "NBIS ID: XXXX\nRequest by: John Doe (john.doe@ki.se)\nPrincipal Investigator: John Doe (john.doe@ki.se)\nOrganisation: Some University\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 30-09-2023 at 15:18:56."
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 30-09-2023 at 17:30:05."
   }
 ]
