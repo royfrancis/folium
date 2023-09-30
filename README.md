@@ -2,7 +2,7 @@
 
 [![ci_badge](https://github.com/royfrancis/minty-quarto-website/workflows/deploy/badge.svg)](https://github.com/royfrancis/minty-quarto-website/actions?workflow=deploy)    [![lifecycle_badge](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
-A quarto website template for project reports.
+A quarto website template for project reports. For a single page template, see [minty-quarto-webpage](https://github.com/royfrancis/minty-quarto-webpage).
 
 ![](preview-a.png)
 
