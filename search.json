@@ -21,6 +21,104 @@
     "text": "2 Acknowledgments\nIf you are presenting the results in a paper, at a workshop or conference, we kindly ask you to acknowledge us.\n\nNBIS staff are encouraged to be co-authors when this is merited in accordance to the ethical recommendations for authorship, e.g. ICMJE recommendations. If applicable, please include Name, Surname, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Further Affliations, as co-author. In other cases, NBIS would be grateful if support by us is acknowledged in publications according to this example:\n\n\n“Support by NBIS (National Bioinformatics Infrastructure Sweden) is gratefully acknowledged.”\n\n\nUPPMAX kindly asks you to acknowledge UPPMAX and NAISS.\nNGI: For publications based on data from NGI Sweden, NGI and SciLifeLab should be acknowledged. Instructions are included in the NGI reports as described here."
   },
   {
+    "objectID": "reports/demo.html",
+    "href": "reports/demo.html",
+    "title": "Demo Report",
+    "section": "",
+    "text": "This is a quarto document"
+  },
+  {
+    "objectID": "reports/demo.html#text-formatting",
+    "href": "reports/demo.html#text-formatting",
+    "title": "Demo Report",
+    "section": "1 Text formatting",
+    "text": "1 Text formatting\n\n1.1 Headings\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n\n1.2 Character sizes\nCustom character sizes. This is an enchanced feature.\n\n\n\nMarkdown\nRendered\n\n\n\n\n[Largest text]{.largest}\nLargest text\n\n\n[Larger text]{.larger}\nLarger text\n\n\n[Large text]{.large}\nLarge text\n\n\nNormal text\nNormal text\n\n\n[Small text]{.small}\nSmall text\n\n\n[Smaller text]{.smaller}\nSmaller text\n\n\n[Smallest text]{.smallest}\nSmallest text\n\n\n\n\n\n1.3 Character styles\n\n\n\nMarkdown\nRendered\n\n\n\n\n__Bold text__\nBold text\n\n\n_Italic text_\nItalic text\n\n\n~~Strikethrough~~\nStrikethrough\n\n\nH~2~O\nH2O\n\n\nx^2\nx^2\n\n\n--\n–\n\n\n---\n—\n\n\n[link](r-project.org)\nlink\n\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\nShift-Ctrl-P\n\n\n\n\n\n1.4 Blockquote\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n\n\n1.5 Line block\nLine block preserves spaces and new lines.\n| This\n|     block\n|          preserves\n|                   formatting\nThis\n    block\n         preserves\n                  formatting\n\n\n1.6 Rule\nA horizontal line can be created using three or more * or -.\n***\n\n\n\n1.7 Footnote\nAn example of footnote reference 1\n\n\n1.8 Aside\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin\n\n\n1.9 Badge\nBadges are defined as such:\n[badge]{.badge} badge\n[badge]{.badge-secondary} badge"
+  },
+  {
+    "objectID": "reports/demo.html#code-formatting",
+    "href": "reports/demo.html#code-formatting",
+    "title": "Demo Report",
+    "section": "2 Code formatting",
+    "text": "2 Code formatting\nVerbatim code is text formatted using monospaced font intended as code. Verbatim code can be defined inline where `date()` looks like date().\nCode can also be defined inside code blocks.\n```\ndate()\n```\ndate()\nSource code, ie; code that is highlighted or executed in a quarto document is not covered here."
+  },
+  {
+    "objectID": "reports/demo.html#lists",
+    "href": "reports/demo.html#lists",
+    "title": "Demo Report",
+    "section": "3 Lists",
+    "text": "3 Lists\n\n3.1 Unordered\nUnordered lists are created using dashes.\n\n\n- Bullet 1\n- Bullet 2\n  - Sub-bullet 2.1\n  - Sub-bullet 2.2\n- Bullet 3\n\n\n\nBullet 1\nBullet 2\n\nSub-bullet 2.1\nSub-bullet 2.2\n\nBullet 3\n\n\n\n\n\n3.2 Ordered\nOrdered lists are created using numbers.\n\n\n1. Point 1\n2. Point 2\n3. Point 3\n\n\n\nPoint 1\nPoint 2\nPoint 3\n\n\n\n\n\n3.3 Multiple Lists\n\n\n::: {}\n1. Point 1\n2. Point 2\n:::\n\n:::{}\n1. Point 1\n2. Point 2\n:::\n\n\n\n\nPoint 1\nPoint 2\n\n\n\n\nPoint 1\nPoint 2"
+  },
+  {
+    "objectID": "reports/demo.html#images",
+    "href": "reports/demo.html#images",
+    "title": "Demo Report",
+    "section": "4 Images",
+    "text": "4 Images\nImages can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox. This is made possible using the [lightbox][https://github.com/quarto-ext/lightbox] extension.\n\n4.1 Using Markdown\nUsing regular markdown.\n![](assets/image.jpg)\n\n\n\n\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/image.jpg){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\n\n4.1.1 Figure layout\n::: {#fig-mylabel layout-ncol=2}\n![Caption for figure 1](assets/image.jpg){width=\"40%\"}\n\n![Caption for figure 2](assets/image.jpg){width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\n\n\nCaption for figure 1\n\n\n\n\n\nCaption for figure 2\n\n\n\nFig 1: These figures are interesting.\n\n\nMore figure options and layouts are described here. Cross referencing described here.\n\n\n\n4.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/image.jpg\" style=\"width:30%;\"/&gt;\n\nFor more information on figures, see here. Images generated through code is not covered here."
+  },
+  {
+    "objectID": "reports/demo.html#math-expressions",
+    "href": "reports/demo.html#math-expressions",
+    "title": "Demo Report",
+    "section": "5 Math expressions",
+    "text": "5 Math expressions\nSome examples of rendering equations.\n\n\n$e^{i\\pi} + 1 = 0$\n\n\n\\(e^{i\\pi} + 1 = 0\\)\n\n\n\n\n$$\\frac{E \\times X^2 \\prod I}{2+7} = 432$$\n\n\n\\[\\frac{E \\times X^2 \\prod I}{2+7} = 432\\]\n\n\n\n\n$$\\sum_{i=1}^n X_i$$\n\n\n\\[\\sum_{i=1}^n X_i\\]\n\n\n\n\n$$\\int_0^{2\\pi} \\sin x~dx$$\n\n\n\\[\\int_0^{2\\pi} \\sin x~dx\\]\n\n\n\n\n$\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$\n\n\n\\(\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}\\)\n\n\n\n\n$\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}\\)\n\n\n\n\n$\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}\\)"
+  },
+  {
+    "objectID": "reports/demo.html#tables",
+    "href": "reports/demo.html#tables",
+    "title": "Demo Report",
+    "section": "6 Tables",
+    "text": "6 Tables\nFor simple cases, tables can be manually created in markdown.\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\nTable caption and numbering can be added as such:\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n: These are exciting results. {#tbl-mylabel}\n\n\n\n\nTab 1: These are exciting results.\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\n\nTables can also be generated through code which is not covered here.\n\n6.1 Margin table\nA table placed in the margin.\n::: {.column-margin}\n\n| speed | dist |\n|-------|------|\n| 4     | 2    |\n| 4     | 10   |\n| 7     | 4    |\n\n:::\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\nMore information about tables."
+  },
+  {
+    "objectID": "reports/demo.html#icons",
+    "href": "reports/demo.html#icons",
+    "title": "Demo Report",
+    "section": "7 Icons",
+    "text": "7 Icons\n\n7.1 Bootstrap icons\nBootstrap icons are directly available since quarto uses bootstrap for styling. Optionally, one could also use the quarto extension bsicons for more control.\n&lt;i class=\"bi bi-lightbulb-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-exclamation-circle-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-clipboard2-check-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-chat-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-laptop-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-cloud-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-github\"&gt;&lt;/i&gt; \n\n\n7.2 Fontawesome\nTo use fontawesome icons as shortcodes, quarto extension fontawesome needs to be installed.\nIcons can be placed using shortcodes.\n{{&lt; fa lightbulb &gt;}} \n{{&lt; fa exclamation &gt;}} \n{{&lt; fa clipboard-list &gt;}} \n{{&lt; fa comments &gt;}} \n{{&lt; fa desktop &gt;}} \n{{&lt; fa cloud &gt;}} \n{{&lt; fa check &gt;}} \n{{&lt; fa times &gt;}} \n{{&lt; fa skull &gt;}} \n{{&lt; fa skull size=2x &gt;}} \n{{&lt; fa brands github &gt;}} \nIcons can be displayed using the HTML &lt;i&gt; tag. Note that not all icons may work.\nHere is a &lt;i class='fa fa-calendar'&gt;&lt;/i&gt; calendar and a &lt;i class='fa fa-couch'&gt;&lt;/i&gt; couch.\nHere is a  calendar and a  couch.\nThere are many other quarto extensions for icons such as academicons, iconify and lordicons."
+  },
+  {
+    "objectID": "reports/demo.html#call-outs",
+    "href": "reports/demo.html#call-outs",
+    "title": "Demo Report",
+    "section": "8 Call-Outs",
+    "text": "8 Call-Outs\nCall-Out blocks are explained here.\n::: {.callout-note}\nThis is a call-out.\n:::\n\n::: {.callout-warning}\nThis is a call-out.\n:::\n\n::: {.callout-important}\nThis is a call-out.\n:::\n\n::: {.callout-tip}\nThis is a call-out.\n:::\n\n::: {.callout-caution}\nThis is a call-out.\n:::\n\n::: {.callout-tip collapse=\"true\"}\n## Call-out with collapse\n\nThis content is behind an accordion.\n:::\n\n\n\n\n\n\nNote\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCall-out with collapse\n\n\n\n\n\nThis content is behind an accordion."
+  },
+  {
+    "objectID": "reports/demo.html#alerts",
+    "href": "reports/demo.html#alerts",
+    "title": "Demo Report",
+    "section": "9 Alerts",
+    "text": "9 Alerts\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!"
+  },
+  {
+    "objectID": "reports/demo.html#layout",
+    "href": "reports/demo.html#layout",
+    "title": "Demo Report",
+    "section": "10 Layout",
+    "text": "10 Layout\n\n10.1 Span\n[Content inside span]{style=\"background-color: gray\"}\nContent inside span\n\n\n10.2 Div\n::: {style=\"background-color: gray\"}\nContent inside div\n:::\n\nContent inside div\n\nDivs can be nested like this:\n:::: {.class}\n::: {.class}\n:::\n::::\nBoth spans and divs support attributes in this specific order: identifiers, classes, and then key-value attributes.\n[Content inside span]{#id .class key1=\"val1\" key2=\"val2\"}\n\n\n10.3 Hidden div\n::: {.hidden}\nHidden content\n:::\n\n\n10.4 Conditional content\n::: {{.content-visible when-format=\"html\"}}\nWill only appear in HTML.\n:::\n::: {{.content-hidden when-format=\"html\"}}\nWill not appear in HTML.\n:::\nConditional content is documented here.\n\n\n10.5 Inner columns\nOrganisation of content into columns within the body container.\n:::: {.columns}\n::: {.column style=\"background-color: aliceblue\"}\nContent is left.\n:::\n::: {.column style=\"background-color:  #f5b7b1\"}\nContent is right.\n:::\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\n\nThis is an example of nested columns.\n:::: {.columns}\n\n::: {.column style=\"background-color: aliceblue\"}\nContent in left column.\n:::\n\n::: {.column}\nContent in right column.\n\n:::: {.columns}\n::: {.column style=\"background-color: #d0ece7\"}\nNested left.\n:::\n::: {.column style=\"background-color: #f2d7d5\"}\nNested right.\n:::\n::::\n\n:::\n\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\nNested left.\n\nNested right.\n\n\n\n\n\n\n10.6 Outer columns\nExtending content outside the body container.\n::: {.column-body style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body\n:::\n\n::: {.column-body-outset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset\n:::\n\n::: {.column-page-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset\n:::\n\n::: {.column-page style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page\n:::\n\n::: {.column-screen-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset\n:::\n\n::: {.column-screen style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen\n:::\n\n::: {.column-body-outset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-right\n:::\n\n::: {.column-page-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-right\n:::\n\n::: {.column-page-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-right\n:::\n\n::: {.column-screen-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-right\n:::\n\n::: {.column-screen-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-right\n:::\n\n::: {.column-body-outset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-left\n:::\n\n::: {.column-page-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-left\n:::\n\n::: {.column-page-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-left\n:::\n\n::: {.column-screen-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-left\n:::\n\n::: {.column-screen-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-left\n:::\n\n::: {.column-margin style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-margin\n:::\n\n.column-body\n\n\n.column-body-outset\n\n\n.column-page-inset\n\n\n.column-page\n\n\n.column-screen-inset\n\n\n.column-screen\n\n\n.column-body-outset-right\n\n\n.column-page-inset-right\n\n\n.column-page-right\n\n\n.column-screen-inset-right\n\n\n.column-screen-right\n\n\n.column-body-outset-left\n\n\n.column-page-inset-left\n\n\n.column-page-left\n\n\n.column-screen-inset-left\n\n\n.column-screen-left\n\n\n\n.column-margin\n\n\n10.7 Panel layout\n::: {.panel-tabset}\n#### Sub topic 1\n\nThis is some material for topic 1.\n\n#### Sub topic 2\n\nThis is some material for topic 2.\n\n:::\n\nSub topic 1Sub topic 2\n\n\nThis is some material for topic 1.\n\n\nThis is some material for topic 2.\n\n\n\nMore layout settings are described here and here."
+  },
+  {
+    "objectID": "reports/demo.html#general-tips",
+    "href": "reports/demo.html#general-tips",
+    "title": "Demo Report",
+    "section": "11 General tips",
+    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website"
+  },
+  {
+    "objectID": "reports/demo.html#footnotes",
+    "href": "reports/demo.html#footnotes",
+    "title": "Demo Report",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThat reference refers to this footnote.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBIS support 0000",
+    "section": "",
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 28-12-2023 at 23:51:56."
+  },
+  {
     "objectID": "reports/report.html",
     "href": "reports/report.html",
     "title": "Report",
@@ -47,117 +145,5 @@
     "title": "Report",
     "section": "3 Practical info",
     "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info."
-  },
-  {
-    "objectID": "reports/demo.html",
-    "href": "reports/demo.html",
-    "title": "Demo Report",
-    "section": "",
-    "text": "This is a quarto document with RMarkdown.\nMarkdown basics are covered here.\nIn RStudio, you create a .qmd text file, then click the Render button.\n.qmd documents can also be rendered as such:\n\n\n\nCode\nquarto::quarto_render(\"report.qmd\")"
-  },
-  {
-    "objectID": "reports/demo.html#quarto-rmarkdown",
-    "href": "reports/demo.html#quarto-rmarkdown",
-    "title": "Demo Report",
-    "section": "",
-    "text": "This is a quarto document with RMarkdown.\nMarkdown basics are covered here.\nIn RStudio, you create a .qmd text file, then click the Render button.\n.qmd documents can also be rendered as such:\n\n\n\nCode\nquarto::quarto_render(\"report.qmd\")"
-  },
-  {
-    "objectID": "reports/demo.html#layout",
-    "href": "reports/demo.html#layout",
-    "title": "Demo Report",
-    "section": "2 Layout",
-    "text": "2 Layout\n\n2.1 Inner columns\nOrganisation of content into columns within the body container.\n:::: {.columns}\n::: {.column style=\"background-color: aliceblue\"}\nContent is left.\n:::\n::: {.column style=\"background-color:  #f5b7b1\"}\nContent is right.\n:::\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\n\nThis is an example of nested columns.\n:::: {.columns}\n\n::: {.column style=\"background-color: aliceblue\"}\nContent in left column.\n:::\n\n::: {.column}\nContent in right column.\n\n:::: {.columns}\n::: {.column style=\"background-color: #d0ece7\"}\nNested left.\n:::\n::: {.column style=\"background-color: #f2d7d5\"}\nNested right.\n:::\n::::\n\n:::\n\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\nNested left.\n\nNested right.\n\n\n\n\n\n\n2.2 Outer columns\nExtending content outside the body container.\n\n.column-body\n\n\n.column-body-outset\n\n\n.column-page-inset\n\n\n.column-page\n\n\n.column-screen-inset\n\n\n.column-screen\n\n\n.column-body-outset-right\n\n\n.column-page-inset-right\n\n\n.column-page-right\n\n\n.column-screen-inset-right\n\n\n.column-screen-right\n\n\n.column-body-outset-left\n\n\n.column-page-inset-left\n\n\n.column-page-left\n\n\n.column-screen-inset-left\n\n\n.column-screen-left\n\n\n\n.column-margin\n\n\n2.3 Panel layout\n::: {.panel-tabset}\n#### Sub topic 1\n\nThis is some material for topic 1.\n\n#### Sub topic 2\n\nThis is some material for topic 2.\n\n:::\n\nSub topic 1Sub topic 2\n\n\nThis is some material for topic 1.\n\n\nThis is some material for topic 2.\n\n\n\nMore layout settings are described here and here."
-  },
-  {
-    "objectID": "reports/demo.html#text-formatting",
-    "href": "reports/demo.html#text-formatting",
-    "title": "Demo Report",
-    "section": "3 Text formatting",
-    "text": "3 Text formatting\nHeadings can be defined as shown below.\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n3.1 Level 3 heading\n\n3.1.1 Level 4 heading\n\nLevel 5 heading\n\nLevel 6 heading\nCharacter styles can be set as below.\n[Largest text]{.largest}  \n[Larger text]{.larger}  \n[Large text]{.large}  \nNormal text  \n[Small text]{.small}  \n[Smaller text]{.smaller}  \n[Smallest text]{.smallest}  \nLargest text\nLarger text\nLarge text\nNormal text\nSmall text\nSmaller text\nSmallest text\nA horizontal line can be created using three or more * or -.\n***\n\nThis is __Bold text__ This is Bold text\nThis is _Italic text_ This is Italic text\n~~Strikethrough~~ text Strikethrough text\nThis is Subscript H~2~O displayed as H2O\nThis is Superscript 2^10^ displayed as 210\nThis is a [link](r-project.org) This is a link\nAn example of footnote reference 1\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin"
-  },
-  {
-    "objectID": "reports/demo.html#code-formatting",
-    "href": "reports/demo.html#code-formatting",
-    "title": "Demo Report",
-    "section": "4 Code formatting",
-    "text": "4 Code formatting\nCode can be defined inline where `this` looks like this. R code can be executed inline `r Sys.Date()` producing 2023-09-30. Code can also be defined inside code blocks.\n```\n\n\nThis is code\n```\n\nThis is code\nR code is executed inside code blocks like this\n\n\n```{r}\nSys.Date()\n``` \n\n\nwhich shows the code and output.\n\n\nCode\nSys.Date()\n\n\n[1] \"2023-09-30\"\n\n\nThe code and results can be hidden while sill executing the code.\n```{r}\n#| eval: true\n#| echo: false\n#| results: hide\nSys.Date()\n```\nHere is another example of executed R code with input and output.\n\n\nCode\ndata(iris)\nhead(iris[,1:2])"
-  },
-  {
-    "objectID": "reports/demo.html#lists",
-    "href": "reports/demo.html#lists",
-    "title": "Demo Report",
-    "section": "5 Lists",
-    "text": "5 Lists\n\n5.1 Bulleted List\nUnordered lists are created using asterisks.\n\nBullet 1\n\nBullet 2\n\nSub-bullet 2.1\n\nSub-bullet 2.2\n\n\nBullet 3\n\nOrdered lists are created using numbers.\n\nPoint 1\nPoint 2\nPoint 3"
-  },
-  {
-    "objectID": "reports/demo.html#images",
-    "href": "reports/demo.html#images",
-    "title": "Demo Report",
-    "section": "6 Images",
-    "text": "6 Images\n\n6.1 Using Markdown\nUsing regular markdown.\n![](assets/featured.jpg)\n\n\n\n\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/featured.jpg){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\nFigure layout.\n::: {#fig1 layout-ncol=2}\n![Caption for figure 1](assets/featured.jpg){#subfig1 width=\"40%\"}\n\n![Caption for figure 2](assets/featured.jpg){#subfig2 width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\nCaption for figure 1\n\n\n\nCaption for figure 2\n\n\n\n\nThese figures are interesting.\n\n\n\nMore figure options and layouts are described here.\n\n\n6.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/featured.jpg\" style=\"width:30%;\"/&gt;\n\n\n\n6.3 Using R\nR chunks in RMarkdown can be used to control image display size using the arguemnt out.width.\nThis image below is displayed at a size of 300 pixels.\n```{r}\n#| out-width: 300px\nknitr::include_graphics(\"assets/featured.jpg\")\n```\n\n\n\n\n\n\n\n\n\nThis image below is displayed at a size of 75 pixels and a caption added.\n```{r}\n#| out-width: 75px\n#| fig-cap: This is a caption\nknitr::include_graphics(\"assets/featured.jpg\")\n```\n\n\n\n\n\nThis is a caption\n\n\n\n\nFor more information on figures, see here. For plots generated through R, see section further below."
-  },
-  {
-    "objectID": "reports/demo.html#math-expressions",
-    "href": "reports/demo.html#math-expressions",
-    "title": "Demo Report",
-    "section": "7 Math expressions",
-    "text": "7 Math expressions\nSome examples of rendering equations.\n$e^{i\\pi} + 1 = 0$\n\\(e^{i\\pi} + 1 = 0\\)\n$$\\frac{E \\times X^2 \\prod I}{2+7} = 432$$\n\\[\\frac{E \\times X^2 \\prod I}{2+7} = 432\\]\n$$\\sum_{i=1}^n X_i$$\n\\[\\sum_{i=1}^n X_i\\]\n$$\\int_0^{2\\pi} \\sin x~dx$$\n\\[\\int_0^{2\\pi} \\sin x~dx\\]\n$\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$\n\\(\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}\\)\n$\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}$\n\\(\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}\\)\n$\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}$\n\\(\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}\\)"
-  },
-  {
-    "objectID": "reports/demo.html#tables",
-    "href": "reports/demo.html#tables",
-    "title": "Demo Report",
-    "section": "8 Tables",
-    "text": "8 Tables\n\n8.1 Manual\nFor simple cases, tables can be manually created in markdown.\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n: Markdown table {#tbl-markdown}\n\n\nTable 1: Markdown table\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\n\n8.2 htmlTable\nMarkdown tables can be enchanced using the R package htmlTable.\n\n\nCode\nlibrary(htmlTable)\n\niris1 &lt;- iris[c(1:4,51:53,105:108),]\nhtmlTable(iris1, rgroup=unique(iris1$Species), n.rgroup=rle(as.character(iris1$Species))$lengths)\n\n\n\n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\nsetosa\n\n\n  1\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n  2\n4.9\n3\n1.4\n0.2\nsetosa\n\n\n  3\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n  4\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\nversicolor\n\n\n  51\n7\n3.2\n4.7\n1.4\nversicolor\n\n\n  52\n6.4\n3.2\n4.5\n1.5\nversicolor\n\n\n  53\n6.9\n3.1\n4.9\n1.5\nversicolor\n\n\nvirginica\n\n\n  105\n6.5\n3\n5.8\n2.2\nvirginica\n\n\n  106\n7.6\n3\n6.6\n2.1\nvirginica\n\n\n  107\n4.9\n2.5\n4.5\n1.7\nvirginica\n\n\n  108\n7.3\n2.9\n6.3\n1.8\nvirginica\n\n\n\n\n\n\n\n8.3 kable\nSimple table using kable from R package knitr. This is the default output for quarto.\n```{r}\n#| label: tbl-kable\n#| tbl-cap: Kable table\nhead(iris)\n```\n\n\n\n\n Table 2:  Kable table \n  \n\n\n\n\n\n8.3.1 Margin table\n```{r}\n#| fig-caption: This table is in the margin.\n#| column: margin\n\nhead(cars)\n```\n\n\n\n\n\n  \n\n\n\n\n\n8.4 kableExtra\nMore advanced table using kableExtra and formattable.\n\n\nCode\nlibrary(kableExtra)\n\niris[c(1:4,51:53,105:108),] %&gt;%\n  mutate(Sepal.Length=color_bar(\"lightsteelblue\")(Sepal.Length)) %&gt;%\n  mutate(Sepal.Width=color_tile(\"white\",\"orange\")(Sepal.Width)) %&gt;%\n  mutate(Species=cell_spec(Species,\"html\",color=\"white\",bold=T,\n    background=c(\"#8dd3c7\",\"#fb8072\",\"#bebada\")[factor(.$Species)])) %&gt;%\n  kable(\"html\",escape=F) %&gt;%\n  kable_styling(bootstrap_options=c(\"striped\",\"hover\",\"responsive\"),\n                full_width=F,position=\"left\") %&gt;%\n  column_spec(5,width=\"3cm\")\n\n\n\n\nTable using kableextra. \n\n\n\nSepal.Length\nSepal.Width\nPetal.Length\nPetal.Width\nSpecies\n\n\n\n\n1\n5.1\n3.5\n1.4\n0.2\nsetosa\n\n\n2\n4.9\n3.0\n1.4\n0.2\nsetosa\n\n\n3\n4.7\n3.2\n1.3\n0.2\nsetosa\n\n\n4\n4.6\n3.1\n1.5\n0.2\nsetosa\n\n\n51\n7.0\n3.2\n4.7\n1.4\nversicolor\n\n\n52\n6.4\n3.2\n4.5\n1.5\nversicolor\n\n\n53\n6.9\n3.1\n4.9\n1.5\nversicolor\n\n\n105\n6.5\n3.0\n5.8\n2.2\nvirginica\n\n\n106\n7.6\n3.0\n6.6\n2.1\nvirginica\n\n\n107\n4.9\n2.5\n4.5\n1.7\nvirginica\n\n\n108\n7.3\n2.9\n6.3\n1.8\nvirginica\n\n\n\n\n\n\n\n\n\n\n8.5 DT\nInteractive table using R package DT.\n\n\nCode\nlibrary(DT)\n\niris %&gt;%\n  slice(1:15) %&gt;%\n  datatable(options=list(pageLength=7))\n\n\n\n\n\n\n\n\n\n8.6 reactable\nAdvanced interactive tables with reactable.\n\n\nCode\nlibrary(reactable)\n\nreactable(iris[sample(1:150,10),],\n  columns = list(\n    Sepal.Length = colDef(name = \"Sepal Length\"),\n    Sepal.Width = colDef(name = \"Sepal Width\"),\n    Petal.Width = colDef(name = \"Petal Width\"),\n    Petal.Width = colDef(name = \"Petal Width\")\n  ),\n  striped = TRUE,\n  highlight = TRUE,\n  filterable = TRUE\n)\n\n\n\n\n\n\n\nreactable creation can be simplified as well as enchanced by using reactablefmtr."
-  },
-  {
-    "objectID": "reports/demo.html#static-plots",
-    "href": "reports/demo.html#static-plots",
-    "title": "Demo Report",
-    "section": "9 Static plots",
-    "text": "9 Static plots\n\n9.1 Base plot\n\nPlots using base R are widely used and may be good enough for most situations.\nBut they lack a consistent coding framework.\n\n\n\nCode\n{plot(x=iris$Sepal.Length,y=iris$Sepal.Width,\n      col=c(\"coral\",\"steelblue\",\"forestgreen\")[iris$Species],\n      xlab=\"Sepal Length\",ylab=\"Sepal Width\",pch=19)\nlegend(x=7,y=4.47,legend=c(\"setosa\",\"versicolor\",\"virginica\"),\n       col=c(\"coral\",\"steelblue\",\"forestgreen\"),pch=19)}\n\n\n\n\n\nStatic plot using base plot.\n\n\n\n\nRefer to @plot-base to see an example of base plot.\n\n9.1.1 Multiple plots\n```{r}\n#| column: screen-inset-shaded\n#| layout-nrow: 1\n\nplot(cars)\nplot(iris)\nplot(pressure)\n```\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n9.1.2 Margin plot\n```{r}\n#| column: margin\n\nplot(cars)\n```\n\n\nCode\nplot(cars)\n\n\n\n\n\n\n\n\n\n\n\n\n9.2 ggplot2\nR package ggplot2 is one of the most versatile and complete plotting solutions.\n\n\nCode\nlibrary(ggplot2)\n\niris %&gt;%\n  ggplot(aes(x=Sepal.Length,y=Sepal.Width,col=Species))+\n  geom_point(size=2)+\n  labs(x=\"Sepal Length\",y=\"Sepal Width\")+\n  theme_report()\n\n\n\n\n\nStatic plot using ggplot2."
-  },
-  {
-    "objectID": "reports/demo.html#interactive-plots",
-    "href": "reports/demo.html#interactive-plots",
-    "title": "Demo Report",
-    "section": "10 Interactive plots",
-    "text": "10 Interactive plots\n\n10.1 rbokeh\nR package rbokeh is an easy and convenient option to get started with interactive plots.\n\n\nCode\nlibrary(rbokeh)\n\nfigure(height=400,width=600,xlab=\"Sepal Length\",ylab=\"Sepal Width\") %&gt;%\n  ly_points(Sepal.Length,Sepal.Width,data=iris,\n  color=Species,glyph=Species,hover=list(Sepal.Length,Sepal.Width))\n\n\n\n\nInteractive scatterplot using rbokeh.\n\n\n\n\n10.2 highcharter\nR package highcharter is a wrapper around javascript library highcharts.\n\n\nCode\nlibrary(highcharter)\n\nh &lt;- iris %&gt;%\n  hchart(.,\"scatter\",hcaes(x=\"Sepal.Length\",y=\"Sepal.Width\",group=\"Species\")) %&gt;%\n  hc_xAxis(title=list(text=\"Sepal Length\"),crosshair=TRUE) %&gt;%\n  hc_yAxis(title=list(text=\"Sepal Width\"),crosshair=TRUE) %&gt;%\n  hc_chart(zoomType=\"xy\",inverted=FALSE) %&gt;%\n  hc_legend(verticalAlign=\"top\",align=\"right\") %&gt;%\n  hc_size(height=400)\n\nhtmltools::tagList(list(h))\n\n\n\n\n\nInteractive scatterplot using highcharter.\n\n\n\n\n10.3 plotly\nR package plotly provides R binding around javascript plotting library plotly.\n\n\nCode\nlibrary(plotly)\n\np &lt;- iris %&gt;%\n  plot_ly(x=~Sepal.Length,y=~Sepal.Width,color=~Species,width=500,height=400) %&gt;%\n  add_markers()\np\n\n\n\n\nInteractive scatterplot using plotly.\n\n\n\n\n10.4 ggplotly\nplotly also has a function called ggplotly which converts a static ggplot2 object into an interactive plot.\n\n\nCode\nlibrary(plotly)\n\np &lt;- iris %&gt;%\n  ggplot(aes(x=Sepal.Length,y=Sepal.Width,col=Species))+\n  geom_point()+\n  labs(x=\"Sepal Length\",y=\"Sepal Width\")+\n  theme_bw(base_size=12)\n\nggplotly(p,width=500,height=400)\n\n\n\n\nInteractive scatterplot using ggplotly.\n\n\n\n\n10.5 ggiraph\nggiraph is also an R package that can be used to convert a static ggplot2 object into an interactive plot.\n\n\nCode\nlibrary(ggiraph)\n\np &lt;- ggplot(iris,aes(x=Sepal.Length,y=Petal.Length,colour=Species))+\n      geom_point_interactive(aes(tooltip=paste0(\"&lt;b&gt;Petal Length:&lt;/b&gt; \",Petal.Length,\"\\n&lt;b&gt;Sepal Length: &lt;/b&gt;\",Sepal.Length,\"\\n&lt;b&gt;Species: &lt;/b&gt;\",Species)),size=2)+\n  theme_bw()\n\ntooltip_css &lt;- \"background-color:#e7eef3;font-family:Roboto;padding:10px;border-style:solid;border-width:2px;border-color:#125687;border-radius:5px;\"\n\nggiraph(code=print(p),hover_css=\"cursor:pointer;stroke:black;fill-opacity:0.3\",zoom_max=5,tooltip_extra_css=tooltip_css,tooltip_opacity=0.9)\n\n\n\n\nInteractive scatterplot using ggiraph.\n\n\n\n\n10.6 dygraphs\nR package dygraphs provides R bindings for javascript library dygraphs for time series data.\n\n\nCode\nlibrary(dygraphs)\n\nlungDeaths &lt;- cbind(ldeaths, mdeaths, fdeaths)\ndygraph(lungDeaths,main=\"Deaths from Lung Disease (UK)\") %&gt;%\n  dyOptions(colors=c(\"#66C2A5\",\"#FC8D62\",\"#8DA0CB\"))\n\n\n\n\nInteractive time series plot using dygraph.\n\n\n\n\n10.7 Network graph\nR package networkD3 allows the use of interactive network graphs from the D3.js javascript library.\n\n\nCode\nlibrary(networkD3)\n\ndata(MisLinks,MisNodes)\nforceNetwork(Links=MisLinks,Nodes=MisNodes,Source=\"source\",\n             Target=\"target\",Value=\"value\",NodeID=\"name\",\n             Group=\"group\",opacity=0.4)\n\n\n\n\nInteractive network plot.\n\n\n\n\n10.8 leaflet\nR package leaflet provides R bindings for javascript mapping library; leafletjs.\n\n\nCode\nlibrary(leaflet)\n\nleaflet(height=500,width=700) %&gt;%\n  addTiles(urlTemplate='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png') %&gt;%\n  #addProviderTiles(providers$Esri.NatGeoWorldMap) %&gt;%\n  addMarkers(lat=57.639327,lng=18.288534,popup=\"RaukR\") %&gt;%\n  setView(lat=57.639327,lng=18.288534,zoom=15)\n\n\n\n\nInteractive map using leaflet.\n\n\n\n\n10.9 crosstalk\nR package crosstalk allows crosstalk enabled plotting libraries to be linked. Through the shared ‘key’ variable, data points can be manipulated simultaneously on two independent plots.\n\n\nCode\nlibrary(crosstalk)\n\nshared_quakes &lt;- SharedData$new(quakes[sample(nrow(quakes), 100),])\nlf &lt;- leaflet(shared_quakes,height=300) %&gt;%\n        addTiles(urlTemplate='http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png') %&gt;%\n        addMarkers()\npy &lt;- plot_ly(shared_quakes,x=~depth,y=~mag,size=~stations,height=300) %&gt;%\n        add_markers()\n\nhtmltools::div(lf,py)\n\n\n\n\n\n\n\n\nLinking independent plots using crosstalk."
-  },
-  {
-    "objectID": "reports/demo.html#icons",
-    "href": "reports/demo.html#icons",
-    "title": "Demo Report",
-    "section": "11 Icons",
-    "text": "11 Icons\nTo use fontawesome icons as shortcodes, quarto extension fontawesome needs to be installed.\nIcons can be placed using shortcodes.\n{{&lt; fa lightbulb &gt;}} \n{{&lt; fa exclamation &gt;}} \n{{&lt; fa clipboard-list &gt;}} \n{{&lt; fa comments &gt;}} \n{{&lt; fa desktop &gt;}} \n{{&lt; fa cloud &gt;}} \n{{&lt; fa check &gt;}} \n{{&lt; fa times &gt;}} \n{{&lt; fa skull &gt;}} \n{{&lt; fa skull size=2x &gt;}} \n{{&lt; fa brands github &gt;}} \nIcons can be displayed using the HTML &lt;i&gt; tag. Note that not all icons may work.\nHere is a &lt;i class='fa fa-calendar'&gt;&lt;/i&gt; calendar and a &lt;i class='fa fa-couch'&gt;&lt;/i&gt; couch.\nHere is a  calendar and a  couch.\nIcons can also be placed programatically through R using the R package fontawesome.\n`r fontawesome::fa('lightbulb')`\n\nOptional arguments are height and fill.\n`r fontawesome::fa('lightbulb',height='30px',fill='steelblue')`\n\nFor full list of icons check out FontAwesome."
-  },
-  {
-    "objectID": "reports/demo.html#call-outs",
-    "href": "reports/demo.html#call-outs",
-    "title": "Demo Report",
-    "section": "12 Call-Outs",
-    "text": "12 Call-Outs\nCall-Out blocks are explained here.\n::: {.callout-note}\nThis is a call-out.\n:::\n\n::: {.callout-warning}\nThis is a call-out.\n:::\n\n::: {.callout-important}\nThis is a call-out.\n:::\n\n::: {.callout-tip}\nThis is a call-out.\n:::\n\n::: {.callout-caution}\nThis is a call-out.\n:::\n\n::: {.callout-tip collapse=\"true\"}\n## Call-out with collapse\n\nThis content is hidden by default.\n:::\n\n\n\n\n\n\nNote\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCall-out with collapse\n\n\n\n\n\nThis content is hidden by default."
-  },
-  {
-    "objectID": "reports/demo.html#alerts",
-    "href": "reports/demo.html#alerts",
-    "title": "Demo Report",
-    "section": "13 Alerts",
-    "text": "13 Alerts\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!"
-  },
-  {
-    "objectID": "reports/demo.html#footnotes",
-    "href": "reports/demo.html#footnotes",
-    "title": "Demo Report",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nThat reference refers to this footnote.↩︎"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NBIS support 0000",
-    "section": "",
-    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 30-09-2023 at 17:30:05."
   }
 ]
