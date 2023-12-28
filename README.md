@@ -1,22 +1,22 @@
-# minty <span><a href="https://github.com/royfrancis/minty-quarto-website"><img src="minty.png" style="height:40px;vertical-align:middle;"></a></span> 
+# folium <span><a href="https://github.com/royfrancis/folium"><img src="minty.png" style="height:40px;vertical-align:middle;"></a></span> 
 
-[![ci_badge](https://github.com/royfrancis/minty-quarto-website/workflows/deploy/badge.svg)](https://github.com/royfrancis/minty-quarto-website/actions?workflow=deploy)    [![lifecycle_badge](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![ci_badge](https://github.com/royfrancis/folium/workflows/deploy/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=deploy)    [![lifecycle_badge](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
-A quarto website template for project reports. For a single page template, see [minty-quarto-webpage](https://github.com/royfrancis/minty-quarto-webpage).
+A quarto website template for project reports. For a single page template, see [folium-webpage](https://github.com/royfrancis/folium-webpage).
 
-![](preview-a.png)
+![](preview-a.jpg)
 
-![](preview-b.png)
+![](preview-b.jpg)
 
-For a demo site, see [here](https://royfrancis.github.io/minty-quarto-website).
+For a demo site, see [here](https://royfrancis.github.io/folium).
 
 ## Usage
 
-- Required quarto 1.2.2 or higher
-- Run in the terminal
+- Required quarto 1.3.4 or higher
+- To download a starter template, run in the terminal
 
 ```
-quarto use template royfrancis/minty-quarto-website
+quarto use template royfrancis/folium
 ```
 
 - Launch preview in the browser
@@ -24,6 +24,8 @@ quarto use template royfrancis/minty-quarto-website
 ```
 quarto preview
 ```
+
+Note that preview will attempt to build all documents.
 
 - Render all html files into `docs` directory
 
@@ -77,4 +79,4 @@ quarto render
 
 ---
 
-2023 • Roy Francis
+2024 • Roy Francis
