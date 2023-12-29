@@ -53,23 +53,12 @@ $presentation-h6-font-size: 1em;
 .smaller { font-size: 0.64em;}
 .smallest { font-size: 0.512em;}
 
-.badge,
 .badge-primary {
   background-color: $primary;
-  color: white;
-  font-size: 0.85em;
-  padding: 0.2em 0.3em;
-  border-radius: 4px;
-  vertical-align: baseline;
 }
 
 .badge-secondary {
   background-color: $secondary;
-  color: white;
-  font-size: 0.85em;
-  padding: 0.2em 0.3em;
-  border-radius: 4px;
-  vertical-align: baseline;
 }
 
 /* site ---------------------------------------------------------------------- */
