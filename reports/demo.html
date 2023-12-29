@@ -179,7 +179,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">28-Dec-2023</p>
+        <p class="date">29-Dec-2023</p>
       </div>
     </div>
     
@@ -437,8 +437,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="badge" class="level3" data-number="1.9">
 <h3 data-number="1.9" class="anchored" data-anchor-id="badge"><span class="header-section-number">1.9</span> Badge</h3>
 <p>Badges are defined as such:</p>
-<p><code>[badge]{.badge}</code> <span class="badge">badge</span><br>
-<code>[badge]{.badge-secondary}</code> <span class="badge-secondary">badge</span></p>
+<p><code>[badge]{.badge .badge-primary}</code> <span class="badge badge-primary">badge</span><br>
+<code>[badge]{.badge .badge-secondary}</code> <span class="badge badge-secondary">badge</span></p>
 </section>
 </section>
 <section id="code-formatting" class="level2" data-number="2">
@@ -542,7 +542,7 @@ date()
 <pre><code>![This is a caption](assets/image.jpg){width=30%}  </code></pre>
 <div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><a href="assets/image.jpg" class="lightbox" title="This is a caption" data-gallery="quarto-lightbox-gallery-2"><img src="assets/image.jpg" class="img-fluid figure-img" style="width:30.0%"></a></p>
+<p><a href="assets/image.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="This is a caption"><img src="assets/image.jpg" class="img-fluid figure-img" style="width:30.0%"></a></p>
 <figcaption class="figure-caption">This is a caption</figcaption>
 </figure>
 </div>
@@ -561,13 +561,13 @@ These figures are interesting.
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-left" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="assets/image.jpg" class="lightbox" title="Caption for figure 1" data-gallery="quarto-lightbox-gallery-3"><img src="assets/image.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="assets/image.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Caption for figure 1"><img src="assets/image.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Caption for figure 1</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-left" style="flex-basis: 50.0%;justify-content: center;">
 <figure class="figure">
-<p><a href="assets/image.jpg" class="lightbox" title="Caption for figure 2" data-gallery="quarto-lightbox-gallery-4"><img src="assets/image.jpg" class="img-fluid figure-img"></a></p>
+<p><a href="assets/image.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Caption for figure 2"><img src="assets/image.jpg" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption">Caption for figure 2</figcaption>
 </figure>
 </div>
@@ -1597,8 +1597,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb34-101"><a href="#cb34-101" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb34-102"><a href="#cb34-102" aria-hidden="true" tabindex="-1"></a>Badges are defined as such:</span>
 <span id="cb34-103"><a href="#cb34-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb34-104"><a href="#cb34-104" aria-hidden="true" tabindex="-1"></a><span class="in">`[badge]{.badge}`</span>  <span class="co">[</span><span class="ot">badge</span><span class="co">]</span>{.badge}  </span>
-<span id="cb34-105"><a href="#cb34-105" aria-hidden="true" tabindex="-1"></a><span class="in">`[badge]{.badge-secondary}`</span>  <span class="co">[</span><span class="ot">badge</span><span class="co">]</span>{.badge-secondary}  </span>
+<span id="cb34-104"><a href="#cb34-104" aria-hidden="true" tabindex="-1"></a><span class="in">`[badge]{.badge .badge-primary}`</span>  <span class="co">[</span><span class="ot">badge</span><span class="co">]</span>{.badge .badge-primary}  </span>
+<span id="cb34-105"><a href="#cb34-105" aria-hidden="true" tabindex="-1"></a><span class="in">`[badge]{.badge .badge-secondary}`</span>  <span class="co">[</span><span class="ot">badge</span><span class="co">]</span>{.badge .badge-secondary}  </span>
 <span id="cb34-106"><a href="#cb34-106" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb34-107"><a href="#cb34-107" aria-hidden="true" tabindex="-1"></a><span class="fu">## Code formatting</span></span>
 <span id="cb34-108"><a href="#cb34-108" aria-hidden="true" tabindex="-1"></a></span>
@@ -2421,7 +2421,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450</div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"loop":true,"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});</script>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","loop":true,"descPosition":"bottom","selector":".lightbox"});</script>
 
 
 
