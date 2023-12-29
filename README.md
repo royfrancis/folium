@@ -1,4 +1,4 @@
-# folium <span><a href="https://github.com/royfrancis/folium"><img src="minty.png" style="height:40px;vertical-align:middle;"></a></span> 
+# folium <span><a href="https://github.com/royfrancis/folium"><img src="folium.png" style="height:40px;vertical-align:middle;"></a></span> 
 
 [![ci_badge](https://github.com/royfrancis/folium/workflows/deploy/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=deploy)    [![lifecycle_badge](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
