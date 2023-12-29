@@ -33,16 +33,6 @@ $navbar-bg: #E9F2D1;
 $footer-bg: white;
 $footer-fg: DimGray;
 
-/* presentation */
-$presentation-font-size-root: 28px;
-$presentation-line-height: 1.3;
-$presentation-h1-font-size: 1.802em;
-$presentation-h2-font-size: 1.602em;
-$presentation-h3-font-size: 1.424em;
-$presentation-h4-font-size: 1.266em;
-$presentation-h5-font-size: 1.125em;
-$presentation-h6-font-size: 1em;
-
 /*-- scss:rules --*/
 
 /* major third scale */
@@ -53,15 +43,13 @@ $presentation-h6-font-size: 1em;
 .smaller { font-size: 0.64em;}
 .smallest { font-size: 0.512em;}
 
-.badge-primary {
-  background-color: $primary;
-}
-
-.badge-secondary {
-  background-color: $secondary;
-}
-
 /* site ---------------------------------------------------------------------- */
+
+.fourofour {
+  font-size: 16rem;
+  font-weight: 700;
+  color: $secondary;
+}
 
 .navbar-nav {
   font-size: 0.85em;
@@ -72,14 +60,24 @@ $presentation-h6-font-size: 1em;
   max-height: 20px;
 }
 
-.contents-table table {
-  line-height: 1.2;
-}
-
 .listing-image img {
   height: 40px;
   width: 60px;
   object-fit: cover;
+}
+
+/* contents ------------------------------------------------------------------ */
+
+.badge-primary {
+  background-color: $primary;
+}
+
+.badge-secondary {
+  background-color: $secondary;
+}
+
+.contents-table table {
+  line-height: 1.2;
 }
 
 /* code */

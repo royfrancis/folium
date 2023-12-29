@@ -15,6 +15,8 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 - Required quarto 1.3.4 or higher
 - To download a starter template, run in the terminal
 
+:exclamation: Demo files are not downloaded
+
 ```
 quarto use template royfrancis/folium
 ```

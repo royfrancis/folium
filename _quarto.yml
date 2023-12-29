@@ -66,10 +66,6 @@ crossref:
   tbl-labels: arabic
   title-delim: "**:**"
 
-knitr:
-  opts_chunk:
-    results: hold
-
 execute:
   eval: true
   echo: true
