@@ -3,11 +3,11 @@ project:
   output-dir: docs
 
 website:
-  image: "assets/logos/nbis-scilifelab.png"
+  image: "assets/featured.jpg"
   favicon: "assets/favicon.png"
   navbar:
     logo: "assets/logos/nbis-scilifelab.png"
-    logo-alt: "NBIS SciLifeLab logo."
+    logo-alt: "logo."
     left:
       - text: "Home"
         href: "index.html"
