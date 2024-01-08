@@ -7,12 +7,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 $primary: #95b540;
-$secondary: #E9F2D1;
-$link-color: #96b43f;
-$body-color: #202020;
+$secondary: #BDD775;
+$tertiary: #E9F2D1;
+$link-color: $primary;
+$body-color: #1c2833;
 $code-color: #496985;
 $code-block-bg: WhiteSmoke;
-$font-family-sans-serif: 'Nunito', 'Helvetica', 'sans-serif' ;
+$font-family-sans-serif: 'Nunito', 'Source Sans Pro', 'Helvetica', 'sans-serif' ;
 $font-family-monospace: 'Fira Mono', 'Ubuntu Mono', 'Liberation Mono', 'Lucida Console', 'Courier', 'monospace';
 $font-size-root: 18px;
 $code-font-size: 14px;
@@ -24,12 +25,11 @@ $h4-font-size: 1.266rem;
 $h5-font-size: 1.125rem;
 $h6-font-size: 1rem;
 $code-block-border-color: none;
-$code-block-font-size: 0.95rem;
 $code-bg: $code-block-bg; /* inline code */
 /*$code-color: ; */
 
 /* site */
-$navbar-bg: #E9F2D1;
+$navbar-bg: $tertiary;
 $footer-bg: white;
 $footer-fg: DimGray;
 
@@ -60,14 +60,19 @@ $footer-fg: DimGray;
   max-height: 20px;
 }
 
+.contents-table table {
+  line-height: 1.2;
+}
+
 .listing-image img {
   height: 40px;
   width: 60px;
   object-fit: cover;
 }
 
-/* contents ------------------------------------------------------------------ */
+/* buttons and badges */
 
+.badge,
 .badge-primary {
   background-color: $primary;
 }
@@ -76,26 +81,59 @@ $footer-fg: DimGray;
   background-color: $secondary;
 }
 
-.contents-table table {
-  line-height: 1.2;
+.btn.primary {
+  background-color: $secondary;
+}
+
+.btn.primary:hover {
+  background-color: $tertiary;
+}
+
+/* alert */
+
+.alert {
+  border-radius: 0;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background-position: right;
 }
 
 /* code */
+
 pre {
+  // font-size: 1.05rem !important;
+  line-height: 1.4;
   background-color: $code-block-bg;
   border-radius: 0.25rem;
 }
 
+pre:not(.sourceCode), pre:not([class]) {
+  padding: 0.4em;
+}
+
+div.code-with-filename-file pre {
+  padding: 0;
+}
+
 code {
+  // font-size: 0.85em !important;
   color: $code-color;
 }
+
 /* call-out */
+
+.callout {
+  border-radius: 0 !important;
+}
+
 .callout-style-default,
 .callout-style-simple {
   border: solid silver 1px !important;
 }
-div.callout-note.callout-style-default .callout-title {
-  background-color: $secondary;
+
+div.callout-note.callout-style-default > .callout-header {
+  background-color: $tertiary;
 }
 
 div.callout-note .callout-icon::before {
