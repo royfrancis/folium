@@ -25,5 +25,5 @@ Long description of the support request.
 ---
 
 ::: {.small}
-Updated: <?lua.date?> at <?lua.time?>.
+Updated: {{< meta current_date >}}  at {{< meta current_time >}}.
 :::

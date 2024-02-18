@@ -13,13 +13,14 @@ website:
         href: "index.html"
   page-footer:
     border: false
-    left: "<?lua.year?> [NBIS](https://nbis.se)"
-    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
+    left: "{{< meta current_year >}} [NBIS](https://nbis.se)"
+    right: "Published with [Quarto](https://quarto.org/) v{{< meta quarto_version >}}"
   sidebar:
     contents:
       - section: Reports
         contents: "reports/*"
       - "completion.qmd"
+  bread-crumbs: false
 
 nbis:
   id: "0000"
@@ -36,9 +37,9 @@ nbis:
 
 format:
   html:
-    quarto-required: ">=1.3.4"
-    theme: "assets/css/custom.scss"
-    include-in-header: "assets/head.html"
+    quarto-required: ">=1.4.0"
+    include-in-header: "assets/include_head.html"
+    theme: "assets/css/styles.scss"
     smooth-scroll: true
     toc: true
     toc-depth: 5
@@ -56,8 +57,6 @@ format:
     author: "{{< meta nbis.analyst.name >}}"
     date:  last-modified
     date-format: "DD-MMM-YYYY"
-    lightbox: 
-      match: auto
 
 crossref:
   fig-title: "**Fig**"
@@ -75,5 +74,4 @@ execute:
 
 filters:
   - assets/custom.lua
-  - lightbox
   - fontawesome
