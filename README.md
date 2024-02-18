@@ -77,7 +77,6 @@ quarto render
 ## Acknowledgements
 
 - Built using [Quarto](https://quarto.org/)
-- Uses the [lightbox extension](https://github.com/quarto-ext/lightbox) for viewing images
 
 ---
 
