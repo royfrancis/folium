@@ -4,146 +4,243 @@
     "href": "completion.html",
     "title": "Completion",
     "section": "",
-    "text": "The responsibility for data archiving lies with the PI of the project. We do not offer long-term storage or retrieval of data.\n\nNBIS & UPPNEX: We kindly ask that you remove the files from UPPMAX/UPPNEX. The main storage at UPPNEX is optimized for high-speed and parallel access, which makes it expensive and not the right place for longer time archiving. Please consider others by not taking up the expensive space. Please note that UPPMAX is a resource separate from the Bioinformatics Platform, administered by the Swedish National Infrastructure for Computing (SNIC) and SNIC-specifc project rules apply to all projects hosted at UPPMAX.\nSensitive data: Please note that special considerations may apply to the human-derived legally considered sensitive personal data. These should be handled according to specific laws and regulations as outlined e.g. here.\nLong-term backup: We recommend asking your local IT for support with long-term data archiving. The Data Office at SciLifeLab may be of help to discuss other options."
+    "text": "The responsibility for data archiving lies with the PI of the project. We do not offer long-term storage or retrieval of data.\n\nNBIS & UPPNEX: We kindly ask that you remove the files from UPPMAX/UPPNEX. The main storage at UPPNEX is optimized for high-speed and parallel access, which makes it expensive and not the right place for longer time archiving. Please consider others by not taking up the expensive space. Please note that UPPMAX is a resource separate from the Bioinformatics Platform, administered by the Swedish National Infrastructure for Computing (SNIC) and SNIC-specifc project rules apply to all projects hosted at UPPMAX.\nSensitive data: Please note that special considerations may apply to the human-derived legally considered sensitive personal data. These should be handled according to specific laws and regulations as outlined e.g. here.\nLong-term backup: We recommend asking your local IT for support with long-term data archiving. The Data Office at SciLifeLab may be of help to discuss other options.",
+    "crumbs": [
+      "Home",
+      "Completion"
+    ]
   },
   {
     "objectID": "completion.html#data-responsibility",
     "href": "completion.html#data-responsibility",
     "title": "Completion",
     "section": "",
-    "text": "The responsibility for data archiving lies with the PI of the project. We do not offer long-term storage or retrieval of data.\n\nNBIS & UPPNEX: We kindly ask that you remove the files from UPPMAX/UPPNEX. The main storage at UPPNEX is optimized for high-speed and parallel access, which makes it expensive and not the right place for longer time archiving. Please consider others by not taking up the expensive space. Please note that UPPMAX is a resource separate from the Bioinformatics Platform, administered by the Swedish National Infrastructure for Computing (SNIC) and SNIC-specifc project rules apply to all projects hosted at UPPMAX.\nSensitive data: Please note that special considerations may apply to the human-derived legally considered sensitive personal data. These should be handled according to specific laws and regulations as outlined e.g. here.\nLong-term backup: We recommend asking your local IT for support with long-term data archiving. The Data Office at SciLifeLab may be of help to discuss other options."
+    "text": "The responsibility for data archiving lies with the PI of the project. We do not offer long-term storage or retrieval of data.\n\nNBIS & UPPNEX: We kindly ask that you remove the files from UPPMAX/UPPNEX. The main storage at UPPNEX is optimized for high-speed and parallel access, which makes it expensive and not the right place for longer time archiving. Please consider others by not taking up the expensive space. Please note that UPPMAX is a resource separate from the Bioinformatics Platform, administered by the Swedish National Infrastructure for Computing (SNIC) and SNIC-specifc project rules apply to all projects hosted at UPPMAX.\nSensitive data: Please note that special considerations may apply to the human-derived legally considered sensitive personal data. These should be handled according to specific laws and regulations as outlined e.g. here.\nLong-term backup: We recommend asking your local IT for support with long-term data archiving. The Data Office at SciLifeLab may be of help to discuss other options.",
+    "crumbs": [
+      "Home",
+      "Completion"
+    ]
   },
   {
     "objectID": "completion.html#acknowledgments",
     "href": "completion.html#acknowledgments",
     "title": "Completion",
     "section": "2 Acknowledgments",
-    "text": "2 Acknowledgments\nIf you are presenting the results in a paper, at a workshop or conference, we kindly ask you to acknowledge us.\n\nNBIS staff are encouraged to be co-authors when this is merited in accordance to the ethical recommendations for authorship, e.g. ICMJE recommendations. If applicable, please include Name, Surname, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Further Affliations, as co-author. In other cases, NBIS would be grateful if support by us is acknowledged in publications according to this example:\n\n\n“Support by NBIS (National Bioinformatics Infrastructure Sweden) is gratefully acknowledged.”\n\n\nUPPMAX kindly asks you to acknowledge UPPMAX and NAISS.\nNGI: For publications based on data from NGI Sweden, NGI and SciLifeLab should be acknowledged. Instructions are included in the NGI reports as described here."
+    "text": "2 Acknowledgments\nIf you are presenting the results in a paper, at a workshop or conference, we kindly ask you to acknowledge us.\n\nNBIS staff are encouraged to be co-authors when this is merited in accordance to the ethical recommendations for authorship, e.g. ICMJE recommendations. If applicable, please include Name, Surname, National Bioinformatics Infrastructure Sweden, Science for Life Laboratory, Further Affliations, as co-author. In other cases, NBIS would be grateful if support by us is acknowledged in publications according to this example:\n\n\n“Support by NBIS (National Bioinformatics Infrastructure Sweden) is gratefully acknowledged.”\n\n\nUPPMAX kindly asks you to acknowledge UPPMAX and NAISS.\nNGI: For publications based on data from NGI Sweden, NGI and SciLifeLab should be acknowledged. Instructions are included in the NGI reports as described here.",
+    "crumbs": [
+      "Home",
+      "Completion"
+    ]
   },
   {
     "objectID": "reports/demo.html",
     "href": "reports/demo.html",
     "title": "Demo Report",
     "section": "",
-    "text": "This is a quarto document"
+    "text": "This is a quarto document",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#text-formatting",
     "href": "reports/demo.html#text-formatting",
     "title": "Demo Report",
     "section": "1 Text formatting",
-    "text": "1 Text formatting\n\n1.1 Headings\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n\n1.2 Character sizes\nCustom character sizes. This is an enchanced feature.\n\n\n\nMarkdown\nRendered\n\n\n\n\n[Largest text]{.largest}\nLargest text\n\n\n[Larger text]{.larger}\nLarger text\n\n\n[Large text]{.large}\nLarge text\n\n\nNormal text\nNormal text\n\n\n[Small text]{.small}\nSmall text\n\n\n[Smaller text]{.smaller}\nSmaller text\n\n\n[Smallest text]{.smallest}\nSmallest text\n\n\n\n\n\n1.3 Character styles\n\n\n\nMarkdown\nRendered\n\n\n\n\n__Bold text__\nBold text\n\n\n_Italic text_\nItalic text\n\n\n~~Strikethrough~~\nStrikethrough\n\n\nH~2~O\nH2O\n\n\nx^2\nx^2\n\n\n--\n–\n\n\n---\n—\n\n\n[link](r-project.org)\nlink\n\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\nShift-Ctrl-P\n\n\n\n\n\n1.4 Blockquote\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n\n\n1.5 Line block\nLine block preserves spaces and new lines.\n| This\n|     block\n|          preserves\n|                   formatting\nThis\n    block\n         preserves\n                  formatting\n\n\n1.6 Rule\nA horizontal line can be created using three or more * or -.\n***\n\n\n\n1.7 Footnote\nAn example of footnote reference 1\n\n\n1.8 Aside\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin\n\n\n1.9 Badge\nBadges are defined as such:\n[badge]{.badge .badge-primary} badge\n[badge]{.badge .badge-secondary} badge"
+    "text": "1 Text formatting\n\n1.1 Headings\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n\n1.2 Character sizes\nCustom character sizes. This is an enchanced feature.\n\n\n\nMarkdown\nRendered\n\n\n\n\n[Largest text]{.largest}\nLargest text\n\n\n[Larger text]{.larger}\nLarger text\n\n\n[Large text]{.large}\nLarge text\n\n\nNormal text\nNormal text\n\n\n[Small text]{.small}\nSmall text\n\n\n[Smaller text]{.smaller}\nSmaller text\n\n\n[Smallest text]{.smallest}\nSmallest text\n\n\n\n\n\n1.3 Character styles\n\n\n\nMarkdown\nRendered\n\n\n\n\n__Bold text__\nBold text\n\n\n_Italic text_\nItalic text\n\n\n~~Strikethrough~~\nStrikethrough\n\n\nH~2~O\nH2O\n\n\nx^2\nx^2\n\n\n--\n–\n\n\n---\n—\n\n\n[link](r-project.org)\nlink\n\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\nShift-Ctrl-PShift-Ctrl-P\n\n\n\n\n\n1.4 Blockquote\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n\n\n1.5 Line block\nLine block preserves spaces and new lines.\n| This\n|     block\n|          preserves\n|                   formatting\nThis\n    block\n         preserves\n                  formatting\n\n\n1.6 Rule\nA horizontal line can be created using three or more * or -.\n***\n\n\n\n1.7 Footnote\nAn example of footnote reference 1\n\n\n1.8 Aside\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin\n\n\n1.9 Badge\nBadges are defined as such:\n[badge]{.badge .badge-primary} badge\n[badge]{.badge .badge-secondary} badge",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#code-formatting",
     "href": "reports/demo.html#code-formatting",
     "title": "Demo Report",
     "section": "2 Code formatting",
-    "text": "2 Code formatting\nVerbatim code is text formatted using monospaced font intended as code. Verbatim code can be defined inline where `date()` looks like date().\nCode can also be defined inside code blocks.\n```\ndate()\n```\ndate()\nSource code, ie; code that is highlighted or executed in a quarto document is not covered here."
+    "text": "2 Code formatting\nVerbatim code is text formatted using monospaced font intended as code. Verbatim code can be defined inline where `date()` looks like date().\nCode can also be defined inside code blocks.\n```\ndate()\n```\ndate()\nSource code, ie; code that is highlighted or executed in a quarto document is not covered here.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#lists",
     "href": "reports/demo.html#lists",
     "title": "Demo Report",
     "section": "3 Lists",
-    "text": "3 Lists\n\n3.1 Unordered\nUnordered lists are created using dashes.\n\n\n- Bullet 1\n- Bullet 2\n  - Sub-bullet 2.1\n  - Sub-bullet 2.2\n- Bullet 3\n\n\n\nBullet 1\nBullet 2\n\nSub-bullet 2.1\nSub-bullet 2.2\n\nBullet 3\n\n\n\n\n\n3.2 Ordered\nOrdered lists are created using numbers.\n\n\n1. Point 1\n2. Point 2\n3. Point 3\n\n\n\nPoint 1\nPoint 2\nPoint 3\n\n\n\n\n\n3.3 Multiple Lists\n\n\n::: {}\n1. Point 1\n2. Point 2\n:::\n\n:::{}\n1. Point 1\n2. Point 2\n:::\n\n\n\n\nPoint 1\nPoint 2\n\n\n\n\nPoint 1\nPoint 2"
+    "text": "3 Lists\n\n3.1 Unordered\nUnordered lists are created using dashes.\n\n\n- Bullet 1\n- Bullet 2\n  - Sub-bullet 2.1\n  - Sub-bullet 2.2\n- Bullet 3\n\n\n\nBullet 1\nBullet 2\n\nSub-bullet 2.1\nSub-bullet 2.2\n\nBullet 3\n\n\n\n\n\n3.2 Ordered\nOrdered lists are created using numbers.\n\n\n1. Point 1\n2. Point 2\n3. Point 3\n\n\n\nPoint 1\nPoint 2\nPoint 3\n\n\n\n\n\n3.3 Multiple Lists\n\n\n::: {}\n1. Point 1\n2. Point 2\n:::\n\n:::{}\n1. Point 1\n2. Point 2\n:::\n\n\n\n\nPoint 1\nPoint 2\n\n\n\n\nPoint 1\nPoint 2",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#images",
     "href": "reports/demo.html#images",
     "title": "Demo Report",
     "section": "4 Images",
-    "text": "4 Images\nImages can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox. This is made possible using the [lightbox][https://github.com/quarto-ext/lightbox] extension.\n\n4.1 Using Markdown\nUsing regular markdown.\n![](assets/image.jpg)\n\n\n\n\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/image.jpg){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\n\n4.1.1 Figure layout\n::: {#fig-mylabel layout-ncol=2}\n![Caption for figure 1](assets/image.jpg){width=\"40%\"}\n\n![Caption for figure 2](assets/image.jpg){width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\n\n\nCaption for figure 1\n\n\n\n\n\nCaption for figure 2\n\n\n\nFig 1: These figures are interesting.\n\n\nMore figure options and layouts are described here. Cross referencing described here.\n\n\n\n4.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/image.jpg\" style=\"width:30%;\"/&gt;\n\nFor more information on figures, see here. Images generated through code is not covered here."
+    "text": "4 Images\nImages can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox. This is made possible using the [lightbox][https://github.com/quarto-ext/lightbox] extension.\n\n4.1 Using Markdown\nUsing regular markdown.\n![](assets/image.jpg)\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/image.jpg){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\n\n4.1.1 Figure layout\n::: {#fig-mylabel layout-ncol=2}\n![Caption for figure 1](assets/image.jpg){width=\"40%\"}\n\n![Caption for figure 2](assets/image.jpg){width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\n\n\n\n\nCaption for figure 1\n\n\n\n\n\n\n\nCaption for figure 2\n\n\n\n\n\n\nFig 1: These figures are interesting.\n\n\n\nMore figure options and layouts are described here. Cross referencing described here.\n\n\n\n4.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/image.jpg\" style=\"width:30%;\"/&gt;\n\nFor more information on figures, see here. Images generated through code is not covered here.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#math-expressions",
     "href": "reports/demo.html#math-expressions",
     "title": "Demo Report",
     "section": "5 Math expressions",
-    "text": "5 Math expressions\nSome examples of rendering equations.\n\n\n$e^{i\\pi} + 1 = 0$\n\n\n\\(e^{i\\pi} + 1 = 0\\)\n\n\n\n\n$$\\frac{E \\times X^2 \\prod I}{2+7} = 432$$\n\n\n\\[\\frac{E \\times X^2 \\prod I}{2+7} = 432\\]\n\n\n\n\n$$\\sum_{i=1}^n X_i$$\n\n\n\\[\\sum_{i=1}^n X_i\\]\n\n\n\n\n$$\\int_0^{2\\pi} \\sin x~dx$$\n\n\n\\[\\int_0^{2\\pi} \\sin x~dx\\]\n\n\n\n\n$\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$\n\n\n\\(\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}\\)\n\n\n\n\n$\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}\\)\n\n\n\n\n$\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}\\)"
+    "text": "5 Math expressions\nSome examples of rendering equations.\n\n\n$e^{i\\pi} + 1 = 0$\n\n\n\\(e^{i\\pi} + 1 = 0\\)\n\n\n\n\n$$\\frac{E \\times X^2 \\prod I}{2+7} = 432$$\n\n\n\\[\\frac{E \\times X^2 \\prod I}{2+7} = 432\\]\n\n\n\n\n$$\\sum_{i=1}^n X_i$$\n\n\n\\[\\sum_{i=1}^n X_i\\]\n\n\n\n\n$$\\int_0^{2\\pi} \\sin x~dx$$\n\n\n\\[\\int_0^{2\\pi} \\sin x~dx\\]\n\n\n\n\n$\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}$\n\n\n\\(\\left( \\sum_{i=1}^{n}{i} \\right)^2 = \\left( \\frac{n(n-1)}{2}\\right)^2 = \\frac{n^2(n-1)^2}{4}\\)\n\n\n\n\n$\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} X & \\sim & \\mathrm{N}(0,1)\\\\ Y & \\sim & \\chi^2_{n-p}\\\\ R & \\equiv & X/Y \\sim t_{n-p} \\end{eqnarray}\\)\n\n\n\n\n$\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}$\n\n\n\\(\\begin{eqnarray} P(|X-\\mu| &gt; k) & = & P(|X-\\mu|^2 &gt; k^2)\\\\ & \\leq & \\frac{\\mathbb{E}\\left[|X-\\mu|^2\\right]}{k^2}\\\\ & \\leq & \\frac{\\mathrm{Var}[X]}{k^2} \\end{eqnarray}\\)",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#tables",
     "href": "reports/demo.html#tables",
     "title": "Demo Report",
     "section": "6 Tables",
-    "text": "6 Tables\nFor simple cases, tables can be manually created in markdown.\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\nTable caption and numbering can be added as such:\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n: These are exciting results. {#tbl-mylabel}\n\n\n\n\nTab 1: These are exciting results.\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\n\nTables can also be generated through code which is not covered here.\n\n6.1 Margin table\nA table placed in the margin.\n::: {.column-margin}\n\n| speed | dist |\n|-------|------|\n| 4     | 2    |\n| 4     | 10   |\n| 7     | 4    |\n\n:::\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\nMore information about tables."
+    "text": "6 Tables\nFor simple cases, tables can be manually created in markdown.\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\nTable caption and numbering can be added as such:\n\n\n|speed|dist|\n|-----|----|\n|4    |   2|\n|4    |  10|\n|7    |   4|\n\n: These are exciting results. {#tbl-mylabel}\n\n\n\n\n\nTab 1: These are exciting results.\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\n\n\n\n\n\nTables can also be generated through code which is not covered here.\n\n6.1 Margin table\nA table placed in the margin.\n::: {.column-margin}\n\n| speed | dist |\n|-------|------|\n| 4     | 2    |\n| 4     | 10   |\n| 7     | 4    |\n\n:::\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n\nMore information about tables.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#icons",
     "href": "reports/demo.html#icons",
     "title": "Demo Report",
     "section": "7 Icons",
-    "text": "7 Icons\n\n7.1 Bootstrap icons\nBootstrap icons are directly available since quarto uses bootstrap for styling. Optionally, one could also use the quarto extension bsicons for more control.\n&lt;i class=\"bi bi-lightbulb-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-exclamation-circle-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-clipboard2-check-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-chat-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-laptop-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-cloud-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-github\"&gt;&lt;/i&gt; \n\n\n7.2 Fontawesome\nTo use fontawesome icons as shortcodes, quarto extension fontawesome needs to be installed.\nIcons can be placed using shortcodes.\n{{&lt; fa lightbulb &gt;}} \n{{&lt; fa exclamation &gt;}} \n{{&lt; fa clipboard-list &gt;}} \n{{&lt; fa comments &gt;}} \n{{&lt; fa desktop &gt;}} \n{{&lt; fa cloud &gt;}} \n{{&lt; fa check &gt;}} \n{{&lt; fa times &gt;}} \n{{&lt; fa skull &gt;}} \n{{&lt; fa skull size=2x &gt;}} \n{{&lt; fa brands github &gt;}} \nIcons can be displayed using the HTML &lt;i&gt; tag. Note that not all icons may work.\nHere is a &lt;i class='fa fa-calendar'&gt;&lt;/i&gt; calendar and a &lt;i class='fa fa-couch'&gt;&lt;/i&gt; couch.\nHere is a  calendar and a  couch.\nThere are many other quarto extensions for icons such as academicons, iconify and lordicons."
+    "text": "7 Icons\n\n7.1 Bootstrap icons\nBootstrap icons are directly available since quarto uses bootstrap for styling. Optionally, one could also use the quarto extension bsicons for more control.\n&lt;i class=\"bi bi-lightbulb-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-exclamation-circle-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-clipboard2-check-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-chat-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-laptop-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-cloud-fill\"&gt;&lt;/i&gt; \n&lt;i class=\"bi bi-github\"&gt;&lt;/i&gt; \n\n\n7.2 Fontawesome\nTo use fontawesome icons as shortcodes, quarto extension fontawesome needs to be installed.\nIcons can be placed using shortcodes.\n{{&lt; fa lightbulb &gt;}} \n{{&lt; fa exclamation &gt;}} \n{{&lt; fa clipboard-list &gt;}} \n{{&lt; fa comments &gt;}} \n{{&lt; fa desktop &gt;}} \n{{&lt; fa cloud &gt;}} \n{{&lt; fa check &gt;}} \n{{&lt; fa times &gt;}} \n{{&lt; fa skull &gt;}} \n{{&lt; fa skull size=2x &gt;}} \n{{&lt; fa brands github &gt;}} \nIcons can be displayed using the HTML &lt;i&gt; tag. Note that not all icons may work.\nHere is a &lt;i class='fa fa-calendar'&gt;&lt;/i&gt; calendar and a &lt;i class='fa fa-couch'&gt;&lt;/i&gt; couch.\nHere is a  calendar and a  couch.\nThere are many other quarto extensions for icons such as academicons, iconify and lordicons.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#call-outs",
     "href": "reports/demo.html#call-outs",
     "title": "Demo Report",
     "section": "8 Call-Outs",
-    "text": "8 Call-Outs\nCall-Out blocks are explained here.\n::: {.callout-note}\nThis is a call-out.\n:::\n\n::: {.callout-warning}\nThis is a call-out.\n:::\n\n::: {.callout-important}\nThis is a call-out.\n:::\n\n::: {.callout-tip}\nThis is a call-out.\n:::\n\n::: {.callout-caution}\nThis is a call-out.\n:::\n\n::: {.callout-tip collapse=\"true\"}\n## Call-out with collapse\n\nThis content is behind an accordion.\n:::\n\n\n\n\n\n\nNote\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCall-out with collapse\n\n\n\n\n\nThis content is behind an accordion."
+    "text": "8 Call-Outs\nCall-Out blocks are explained here.\n::: {.callout-note}\nThis is a call-out.\n:::\n\n::: {.callout-warning}\nThis is a call-out.\n:::\n\n::: {.callout-important}\nThis is a call-out.\n:::\n\n::: {.callout-tip}\nThis is a call-out.\n:::\n\n::: {.callout-caution}\nThis is a call-out.\n:::\n\n::: {.callout-tip collapse=\"true\"}\n## Call-out with collapse\n\nThis content is behind an accordion.\n:::\n\n\n\n\n\n\nNote\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nTip\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCaution\n\n\n\nThis is a call-out.\n\n\n\n\n\n\n\n\nCall-out with collapse\n\n\n\n\n\nThis content is behind an accordion.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#alerts",
     "href": "reports/demo.html#alerts",
     "title": "Demo Report",
     "section": "9 Alerts",
-    "text": "9 Alerts\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!"
+    "text": "9 Alerts\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#layout",
     "href": "reports/demo.html#layout",
     "title": "Demo Report",
     "section": "10 Layout",
-    "text": "10 Layout\n\n10.1 Span\n[Content inside span]{style=\"background-color: gray\"}\nContent inside span\n\n\n10.2 Div\n::: {style=\"background-color: gray\"}\nContent inside div\n:::\n\nContent inside div\n\nDivs can be nested like this:\n:::: {.class}\n::: {.class}\n:::\n::::\nBoth spans and divs support attributes in this specific order: identifiers, classes, and then key-value attributes.\n[Content inside span]{#id .class key1=\"val1\" key2=\"val2\"}\n\n\n10.3 Hidden div\n::: {.hidden}\nHidden content\n:::\n\n\n10.4 Conditional content\n::: {{.content-visible when-format=\"html\"}}\nWill only appear in HTML.\n:::\n::: {{.content-hidden when-format=\"html\"}}\nWill not appear in HTML.\n:::\nConditional content is documented here.\n\n\n10.5 Inner columns\nOrganisation of content into columns within the body container.\n:::: {.columns}\n::: {.column style=\"background-color: aliceblue\"}\nContent is left.\n:::\n::: {.column style=\"background-color:  #f5b7b1\"}\nContent is right.\n:::\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\n\nThis is an example of nested columns.\n:::: {.columns}\n\n::: {.column style=\"background-color: aliceblue\"}\nContent in left column.\n:::\n\n::: {.column}\nContent in right column.\n\n:::: {.columns}\n::: {.column style=\"background-color: #d0ece7\"}\nNested left.\n:::\n::: {.column style=\"background-color: #f2d7d5\"}\nNested right.\n:::\n::::\n\n:::\n\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\nNested left.\n\nNested right.\n\n\n\n\n\n\n10.6 Outer columns\nExtending content outside the body container.\n::: {.column-body style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body\n:::\n\n::: {.column-body-outset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset\n:::\n\n::: {.column-page-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset\n:::\n\n::: {.column-page style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page\n:::\n\n::: {.column-screen-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset\n:::\n\n::: {.column-screen style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen\n:::\n\n::: {.column-body-outset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-right\n:::\n\n::: {.column-page-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-right\n:::\n\n::: {.column-page-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-right\n:::\n\n::: {.column-screen-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-right\n:::\n\n::: {.column-screen-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-right\n:::\n\n::: {.column-body-outset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-left\n:::\n\n::: {.column-page-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-left\n:::\n\n::: {.column-page-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-left\n:::\n\n::: {.column-screen-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-left\n:::\n\n::: {.column-screen-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-left\n:::\n\n::: {.column-margin style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-margin\n:::\n\n.column-body\n\n\n.column-body-outset\n\n\n.column-page-inset\n\n\n.column-page\n\n\n.column-screen-inset\n\n\n.column-screen\n\n\n.column-body-outset-right\n\n\n.column-page-inset-right\n\n\n.column-page-right\n\n\n.column-screen-inset-right\n\n\n.column-screen-right\n\n\n.column-body-outset-left\n\n\n.column-page-inset-left\n\n\n.column-page-left\n\n\n.column-screen-inset-left\n\n\n.column-screen-left\n\n\n\n.column-margin\n\n\n10.7 Panel layout\n::: {.panel-tabset}\n#### Sub topic 1\n\nThis is some material for topic 1.\n\n#### Sub topic 2\n\nThis is some material for topic 2.\n\n:::\n\nSub topic 1Sub topic 2\n\n\nThis is some material for topic 1.\n\n\nThis is some material for topic 2.\n\n\n\nMore layout settings are described here and here."
+    "text": "10 Layout\n\n10.1 Span\n[Content inside span]{style=\"background-color: gray\"}\nContent inside span\n\n\n10.2 Div\n::: {style=\"background-color: gray\"}\nContent inside div\n:::\n\nContent inside div\n\nDivs can be nested like this:\n:::: {.class}\n::: {.class}\n:::\n::::\nBoth spans and divs support attributes in this specific order: identifiers, classes, and then key-value attributes.\n[Content inside span]{#id .class key1=\"val1\" key2=\"val2\"}\n\n\n10.3 Hidden div\n::: {.hidden}\nHidden content\n:::\n\n\n10.4 Conditional content\n::: {{.content-visible when-format=\"html\"}}\nWill only appear in HTML.\n:::\n::: {{.content-hidden when-format=\"html\"}}\nWill not appear in HTML.\n:::\nConditional content is documented here.\n\n\n10.5 Inner columns\nOrganisation of content into columns within the body container.\n:::: {.columns}\n::: {.column style=\"background-color: aliceblue\"}\nContent is left.\n:::\n::: {.column style=\"background-color:  #f5b7b1\"}\nContent is right.\n:::\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\n\nThis is an example of nested columns.\n:::: {.columns}\n\n::: {.column style=\"background-color: aliceblue\"}\nContent in left column.\n:::\n\n::: {.column}\nContent in right column.\n\n:::: {.columns}\n::: {.column style=\"background-color: #d0ece7\"}\nNested left.\n:::\n::: {.column style=\"background-color: #f2d7d5\"}\nNested right.\n:::\n::::\n\n:::\n\n::::\n\n\nContent in left column.\n\nContent in right column.\n\n\nNested left.\n\nNested right.\n\n\n\n\n\n\n10.6 Outer columns\nExtending content outside the body container.\n::: {.column-body style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body\n:::\n\n::: {.column-body-outset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset\n:::\n\n::: {.column-page-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset\n:::\n\n::: {.column-page style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page\n:::\n\n::: {.column-screen-inset style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset\n:::\n\n::: {.column-screen style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen\n:::\n\n::: {.column-body-outset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-right\n:::\n\n::: {.column-page-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-right\n:::\n\n::: {.column-page-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-right\n:::\n\n::: {.column-screen-inset-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-right\n:::\n\n::: {.column-screen-right style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-right\n:::\n\n::: {.column-body-outset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-body-outset-left\n:::\n\n::: {.column-page-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-inset-left\n:::\n\n::: {.column-page-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-page-left\n:::\n\n::: {.column-screen-inset-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-inset-left\n:::\n\n::: {.column-screen-left style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-screen-left\n:::\n\n::: {.column-margin style=\"background-color: lightgray; margin-bottom:0.5em;\"}\n.column-margin\n:::\n\n.column-body\n\n\n.column-body-outset\n\n\n.column-page-inset\n\n\n.column-page\n\n\n.column-screen-inset\n\n\n.column-screen\n\n\n.column-body-outset-right\n\n\n.column-page-inset-right\n\n\n.column-page-right\n\n\n.column-screen-inset-right\n\n\n.column-screen-right\n\n\n.column-body-outset-left\n\n\n.column-page-inset-left\n\n\n.column-page-left\n\n\n.column-screen-inset-left\n\n\n.column-screen-left\n\n\n\n.column-margin\n\n\n10.7 Panel layout\n::: {.panel-tabset}\n#### Sub topic 1\n\nThis is some material for topic 1.\n\n#### Sub topic 2\n\nThis is some material for topic 2.\n\n:::\n\nSub topic 1Sub topic 2\n\n\nThis is some material for topic 1.\n\n\nThis is some material for topic 2.\n\n\n\nMore layout settings are described here and here.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#general-tips",
     "href": "reports/demo.html#general-tips",
     "title": "Demo Report",
     "section": "11 General tips",
-    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website"
+    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "reports/demo.html#footnotes",
     "href": "reports/demo.html#footnotes",
     "title": "Demo Report",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThat reference refers to this footnote.↩︎"
+    "text": "Footnotes\n\n\nThat reference refers to this footnote.↩︎",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NBIS support 0000",
     "section": "",
-    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 08-01-2024 at 09:19:59."
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 18-02-2024 at 19:36:18."
   },
   {
     "objectID": "reports/report.html",
     "href": "reports/report.html",
     "title": "Report",
     "section": "",
-    "text": "Content"
+    "text": "Content",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
   },
   {
     "objectID": "reports/report.html#heading",
     "href": "reports/report.html#heading",
     "title": "Report",
     "section": "",
-    "text": "Content"
+    "text": "Content",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
   },
   {
     "objectID": "reports/report.html#deliverables",
     "href": "reports/report.html#deliverables",
     "title": "Report",
     "section": "2 Deliverables",
-    "text": "2 Deliverables\n\n2.1 Directory"
+    "text": "2 Deliverables\n\n2.1 Directory",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
   },
   {
     "objectID": "reports/report.html#practical-info",
     "href": "reports/report.html#practical-info",
     "title": "Report",
     "section": "3 Practical info",
-    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info."
+    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
   }
 ]
