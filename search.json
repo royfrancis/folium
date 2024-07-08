@@ -1,5 +1,53 @@
 [
   {
+    "objectID": "reports/report.html",
+    "href": "reports/report.html",
+    "title": "Report",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#heading",
+    "href": "reports/report.html#heading",
+    "title": "Report",
+    "section": "",
+    "text": "Content",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#deliverables",
+    "href": "reports/report.html#deliverables",
+    "title": "Report",
+    "section": "2 Deliverables",
+    "text": "2 Deliverables\n\n2.1 Directory",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#practical-info",
+    "href": "reports/report.html#practical-info",
+    "title": "Report",
+    "section": "3 Practical info",
+    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
     "objectID": "completion.html",
     "href": "completion.html",
     "title": "Completion",
@@ -31,6 +79,13 @@
       "Home",
       "Completion"
     ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBIS support 0000",
+    "section": "",
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 08-07-2024 at 17:01:22."
   },
   {
     "objectID": "reports/demo.html",
@@ -169,7 +224,7 @@
     "href": "reports/demo.html#general-tips",
     "title": "Demo Report",
     "section": "11 General tips",
-    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website",
+    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website\n\n\n\n\n\n\nThis is a caption\nCaption for figure 1\nCaption for figure 2",
     "crumbs": [
       "Home",
       "Reports",
@@ -186,61 +241,6 @@
       "Home",
       "Reports",
       "Demo Report"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NBIS support 0000",
-    "section": "",
-    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 18-02-2024 at 19:50:34."
-  },
-  {
-    "objectID": "reports/report.html",
-    "href": "reports/report.html",
-    "title": "Report",
-    "section": "",
-    "text": "Content",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Report"
-    ]
-  },
-  {
-    "objectID": "reports/report.html#heading",
-    "href": "reports/report.html#heading",
-    "title": "Report",
-    "section": "",
-    "text": "Content",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Report"
-    ]
-  },
-  {
-    "objectID": "reports/report.html#deliverables",
-    "href": "reports/report.html#deliverables",
-    "title": "Report",
-    "section": "2 Deliverables",
-    "text": "2 Deliverables\n\n2.1 Directory",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Report"
-    ]
-  },
-  {
-    "objectID": "reports/report.html#practical-info",
-    "href": "reports/report.html#practical-info",
-    "title": "Report",
-    "section": "3 Practical info",
-    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info.",
-    "crumbs": [
-      "Home",
-      "Reports",
-      "Report"
     ]
   }
 ]
