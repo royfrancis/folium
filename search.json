@@ -85,7 +85,7 @@
     "href": "index.html",
     "title": "NBIS support 0000",
     "section": "",
-    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 08-07-2024 at 17:01:22."
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 08-07-2024 at 17:27:50."
   },
   {
     "objectID": "reports/demo.html",
@@ -224,7 +224,7 @@
     "href": "reports/demo.html#general-tips",
     "title": "Demo Report",
     "section": "11 General tips",
-    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website\n\n\n\n\n\n\nThis is a caption\nCaption for figure 1\nCaption for figure 2",
+    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website",
     "crumbs": [
       "Home",
       "Reports",
