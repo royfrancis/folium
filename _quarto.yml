@@ -57,6 +57,8 @@ format:
     author: "{{< meta nbis.analyst.name >}}"
     date:  last-modified
     date-format: "DD-MMM-YYYY"
+    lightbox: 
+      match: auto
 
 crossref:
   fig-title: "**Fig**"
