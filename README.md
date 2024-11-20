@@ -73,6 +73,7 @@ quarto render
   ```
 
 - Use `##` as the highest level heading. Do not use `#`.
+- The site won't be indexed by search engines (probably) due to `<meta name="robots" content="noindex">` in head.
 
 ## Acknowledgements
 
