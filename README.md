@@ -1,12 +1,12 @@
-# folium <span><a href="https://github.com/royfrancis/folium"><img src="folium.png" style="height:40px;vertical-align:middle;"></a></span> 
+# folium <span><a href="https://github.com/royfrancis/folium"><img src="folium.webp" style="height:40px;vertical-align:middle;"></a></span> 
 
 [![ci_badge](https://github.com/royfrancis/folium/workflows/deploy/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=deploy)    [![lifecycle_badge](https://lifecycle.r-lib.org/articles/figures/lifecycle-experimental.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 
 A quarto website template for project reports. For a single page template, see [folium-webpage](https://github.com/royfrancis/folium-webpage).
 
-![](preview-a.jpg)
+![](preview-a.webp)
 
-![](preview-b.jpg)
+![](preview-b.webp)
 
 For a demo site, see [here](https://royfrancis.github.io/folium).
 
@@ -81,4 +81,4 @@ quarto render
 
 ---
 
-2024 • Roy Francis
+2025 • Roy Francis

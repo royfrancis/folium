@@ -6,5 +6,5 @@ docs
 **/*_cache
 **/*_files
 reports/demo.qmd
-reports/assets/featured.jpg
+reports/assets/featured.webp
 folium.png

@@ -5,14 +5,37 @@ description: "Report description"
 code-tools: true
 ---
 
-## Heading
+::: {.callout-note collapse="true"}
+
+## Versions
+
+**03-Oct-2024**  
+
+- First version
+
+:::
+
+## Setup
+
+Content
+
+## Methods
 
 Content
 
 ## Deliverables  
 ### Directory
 
-## Practical info
-### Software
+Content
+
+## Summary
+
+Contents
+
+## Conclusion
+
+Content
+
+## Session
 
 List of tools and versions or session info.
