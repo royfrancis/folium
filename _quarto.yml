@@ -76,4 +76,5 @@ execute:
 
 filters:
   - assets/custom.lua
+  - assets/fold-results.lua
   - fontawesome
