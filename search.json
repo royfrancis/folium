@@ -16,7 +16,7 @@
     "href": "reports/demo.html#text-formatting",
     "title": "Demo Report",
     "section": "1 Text formatting",
-    "text": "1 Text formatting\n\n1.1 Headings\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n\n1.2 Character sizes\nCustom character sizes. This is an enchanced feature.\n\n\n\nMarkdown\nRendered\n\n\n\n\n[Largest text]{.largest}\nLargest text\n\n\n[Larger text]{.larger}\nLarger text\n\n\n[Large text]{.large}\nLarge text\n\n\nNormal text\nNormal text\n\n\n[Small text]{.small}\nSmall text\n\n\n[Smaller text]{.smaller}\nSmaller text\n\n\n[Smallest text]{.smallest}\nSmallest text\n\n\n\n\n\n1.3 Character styles\n\n\n\nMarkdown\nRendered\n\n\n\n\n__Bold text__\nBold text\n\n\n_Italic text_\nItalic text\n\n\n~~Strikethrough~~\nStrikethrough\n\n\nH~2~O\nH2O\n\n\nx^2\nx^2\n\n\n--\n–\n\n\n---\n—\n\n\n[link](r-project.org)\nlink\n\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\nShift-Ctrl-PShift-Ctrl-P\n\n\n\n\n\n1.4 Blockquote\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n\n\n1.5 Line block\nLine block preserves spaces and new lines.\n| This\n|     block\n|          preserves\n|                   formatting\nThis\n    block\n         preserves\n                  formatting\n\n\n1.6 Rule\nA horizontal line can be created using three or more * or -.\n***\n\n\n\n1.7 Footnote\nAn example of footnote reference 1\n\n\n1.8 Aside\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin\n\n\n1.9 Badge\nBadges are defined as such:\n[badge]{.badge .badge-primary} badge\n[badge]{.badge .badge-secondary} badge",
+    "text": "1 Text formatting\n\n1.1 Headings\n## Level 2 heading  \n### Level 3 heading  \n#### Level 4 heading  \n##### Level 5 heading  \n###### Level 6 heading\n\n\n1.2 Character sizes\nCustom character sizes. This is an enchanced feature.\n\n\n\nMarkdown\nRendered\n\n\n\n\n[Largest text]{.largest}\nLargest text\n\n\n[Larger text]{.larger}\nLarger text\n\n\n[Large text]{.large}\nLarge text\n\n\nNormal text\nNormal text\n\n\n[Small text]{.small}\nSmall text\n\n\n[Smaller text]{.smaller}\nSmaller text\n\n\n[Smallest text]{.smallest}\nSmallest text\n\n\n\n\n\n1.3 Character styles\n\n\n\nMarkdown\nRendered\n\n\n\n\n__Bold text__\nBold text\n\n\n_Italic text_\nItalic text\n\n\n~~Strikethrough~~\nStrikethrough\n\n\nH~2~O\nH2O\n\n\nx^2^\nx2\n\n\n--\n–\n\n\n---\n—\n\n\n[link](r-project.org)\nlink\n\n\n{{&lt; kbd Shift-Ctrl-P &gt;}}\nShift-Ctrl-PShift-Ctrl-P\n\n\n\n\n\n1.4 Blockquote\n&gt; This is a block quote. This\n&gt; paragraph has two lines.\n&gt;\n&gt; 1. This is a list inside a block quote.\n&gt; 2. Second item.\n\nThis is a block quote. This paragraph has two lines.\n\nThis is a list inside a block quote.\nSecond item.\n\n\n\n\n1.5 Line block\nLine block preserves spaces and new lines.\n| This\n|     block\n|          preserves\n|                   formatting\nThis\n    block\n         preserves\n                  formatting\n\n\n1.6 Rule\nA horizontal line can be created using three or more * or -.\n***\n\n\n\n1.7 Footnote\nAn example of footnote reference 1\n\n\n1.8 Aside\n[This content lives in the right margin]{.aside}\nThis content lives in the right margin\n\n\n1.9 Badge\nBadges are defined as such:\n[badge]{.badge .badge-primary} badge\n[badge]{.badge .badge-secondary} badge",
     "crumbs": [
       "Home",
       "Reports",
@@ -52,7 +52,7 @@
     "href": "reports/demo.html#images",
     "title": "Demo Report",
     "section": "4 Images",
-    "text": "4 Images\nImages can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox. This is made possible using the [lightbox][https://github.com/quarto-ext/lightbox] extension.\n\n4.1 Using Markdown\nUsing regular markdown.\n![](assets/image.jpg)\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/image.jpg){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\n\n4.1.1 Figure layout\n::: {#fig-mylabel layout-ncol=2}\n![Caption for figure 1](assets/image.jpg){width=\"40%\"}\n\n![Caption for figure 2](assets/image.jpg){width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\n\n\n\n\nCaption for figure 1\n\n\n\n\n\n\n\nCaption for figure 2\n\n\n\n\n\n\nFig 1: These figures are interesting.\n\n\n\nMore figure options and layouts are described here. Cross referencing described here.\n\n\n\n4.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/image.jpg\" style=\"width:30%;\"/&gt;\n\nFor more information on figures, see here. Images generated through code is not covered here.",
+    "text": "4 Images\nImages can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox.\n\n4.1 Using Markdown\nUsing regular markdown.\n![](assets/image.webp)\n\nThe dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.\n![This is a caption](assets/image.webp){width=30%}  \n\n\n\nThis is a caption\n\n\nThis image above is now 30% of it’s original width.\n\n4.1.1 Figure layout\n::: {#fig-mylabel layout-ncol=2}\n![Caption for figure 1](assets/image.webp){width=\"40%\"}\n\n![Caption for figure 2](assets/image.webp){width=\"40%\"}\n\nThese figures are interesting.\n:::\n\n\n\n\n\n\n\n\nCaption for figure 1\n\n\n\n\n\n\n\nCaption for figure 2\n\n\n\n\n\n\nFig 1: These figures are interesting.\n\n\n\nMore figure options and layouts are described here. Cross referencing described here.\n\n\n\n4.2 Using HTML\nThis image below is 30% size.\n&lt;img src=\"assets/image.webp\" style=\"width:30%;\"/&gt;\n\nFor more information on figures, see here. Images generated through code is not covered here.",
     "crumbs": [
       "Home",
       "Reports",
@@ -112,7 +112,7 @@
     "href": "reports/demo.html#alerts",
     "title": "Demo Report",
     "section": "9 Alerts",
-    "text": "9 Alerts\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!",
+    "text": "9 Alerts\nThis is not a quarto feature, but rather from bootstrap.\n::: {.alert .alert-primary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-secondary}\n**Note:** This is an alert!\n:::\n::: {.alert .alert-success}\n**Note:** This is a success alert!\n:::\n::: {.alert .alert-danger}\n**Note:** This is a danger alert!\n:::\n::: {.alert .alert-warning}\n**Note:** This is a warning alert!\n:::\n::: {.alert .alert-info}\n**Note:** This is an info alert!\n:::\n\nNote: This is an alert!\n\n\nNote: This is an alert!\n\n\nNote: This is a success alert!\n\n\nNote: This is a danger alert!\n\n\nNote: This is a warning alert!\n\n\nNote: This is an info alert!",
     "crumbs": [
       "Home",
       "Reports",
@@ -132,11 +132,23 @@
     ]
   },
   {
+    "objectID": "reports/demo.html#shortcodes",
+    "href": "reports/demo.html#shortcodes",
+    "title": "Demo Report",
+    "section": "11 Shortcodes",
+    "text": "11 Shortcodes\nShortcodes are sort of like quarto functions.\nTwo important shortcodes are meta and var. meta allows to read metadata from the yaml block in the current page or from _quarto.yml. Here are a few examples:\n{{&lt; meta title &gt;}} Demo Report\n![]({{&lt; meta image &gt;}}){width=\"300px\"}\n\nSimilarly, var allows to read variables from _variables.yml if it has been defined. The include shortcode allows to add a child qmd document into a specific position in a qmd file. The kbd shortcode allows keyboard notations:\nPress {{&lt; kbd Shift-Ctrl-P &gt;}} Press Shift-Ctrl-PShift-Ctrl-P\nThe video shortcode allows to embed a video.\n{{&lt; video https://www.youtube.com/watch?v=_f3latmOhew &gt;}}\n\nSome of the custom shortcodes added with this template are:\n{{&lt; meta quarto_version &gt;}} 1.6.40\n\n{{&lt; meta current_date &gt;}} 13-01-2025\n{{&lt; meta current year &gt;}} 2025\n{{&lt; meta current time &gt;}} 10:27:26\nShortcodes are documented here.",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Demo Report"
+    ]
+  },
+  {
     "objectID": "reports/demo.html#general-tips",
     "href": "reports/demo.html#general-tips",
     "title": "Demo Report",
-    "section": "11 General tips",
-    "text": "11 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website",
+    "section": "12 General tips",
+    "text": "12 General tips\n\nUse level 2 heading as the highest level\n\n## Section A\n\nAdd custom css under YAML if needed css: \"my-theme.css\"\nCheck out the Quarto website",
     "crumbs": [
       "Home",
       "Reports",
@@ -160,7 +172,7 @@
     "href": "index.html",
     "title": "NBIS support 0000",
     "section": "",
-    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 20-11-2024 at 22:16:06."
+    "text": "NBIS ID: 0000\nRequest by: John Doe (john.doe@email.com)\nPrincipal Investigator: John Doe (john.doe@email.com)\nOrganisation: Some university\nNBIS Staff: John Doe (john.doe@nbis.se)\n\nSupport request\nLong description of the support request.\n\n\nUpdated: 13-01-2025 at 10:27:25."
   },
   {
     "objectID": "completion.html",
@@ -200,7 +212,7 @@
     "href": "reports/report.html",
     "title": "Report",
     "section": "",
-    "text": "Content",
+    "text": "Versions\n\n\n\n\n\n03-Oct-2024\n\nFirst version",
     "crumbs": [
       "Home",
       "Reports",
@@ -208,11 +220,23 @@
     ]
   },
   {
-    "objectID": "reports/report.html#heading",
-    "href": "reports/report.html#heading",
+    "objectID": "reports/report.html#setup",
+    "href": "reports/report.html#setup",
     "title": "Report",
-    "section": "",
-    "text": "Content",
+    "section": "1 Setup",
+    "text": "1 Setup\nContent",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#methods",
+    "href": "reports/report.html#methods",
+    "title": "Report",
+    "section": "2 Methods",
+    "text": "2 Methods\nContent",
     "crumbs": [
       "Home",
       "Reports",
@@ -223,8 +247,8 @@
     "objectID": "reports/report.html#deliverables",
     "href": "reports/report.html#deliverables",
     "title": "Report",
-    "section": "2 Deliverables",
-    "text": "2 Deliverables\n\n2.1 Directory",
+    "section": "3 Deliverables",
+    "text": "3 Deliverables\n\n3.1 Directory\nContent",
     "crumbs": [
       "Home",
       "Reports",
@@ -232,11 +256,35 @@
     ]
   },
   {
-    "objectID": "reports/report.html#practical-info",
-    "href": "reports/report.html#practical-info",
+    "objectID": "reports/report.html#summary",
+    "href": "reports/report.html#summary",
     "title": "Report",
-    "section": "3 Practical info",
-    "text": "3 Practical info\n\n3.1 Software\nList of tools and versions or session info.",
+    "section": "4 Summary",
+    "text": "4 Summary\nContents",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#conclusion",
+    "href": "reports/report.html#conclusion",
+    "title": "Report",
+    "section": "5 Conclusion",
+    "text": "5 Conclusion\nContent",
+    "crumbs": [
+      "Home",
+      "Reports",
+      "Report"
+    ]
+  },
+  {
+    "objectID": "reports/report.html#session",
+    "href": "reports/report.html#session",
+    "title": "Report",
+    "section": "6 Session",
+    "text": "6 Session\nList of tools and versions or session info.",
     "crumbs": [
       "Home",
       "Reports",
