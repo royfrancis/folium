@@ -3,11 +3,14 @@ project:
   output-dir: docs
 
 website:
-  image: "assets/featured.webp"
+  open-graph: true
+  site-url: "https://royfrancis.github.io/folium/"
+  image: "assets/images/seo.webp"
+  description: "A quarto website template for project reports."
   favicon: "assets/favicon.png"
   navbar:
-    logo: "assets/logos/nbis-scilifelab.png"
-    logo-alt: "logo."
+    logo: "assets/logos/nbis-scilifelab.webp"
+    logo-alt: "logo"
     left:
       - text: "Home"
         href: "index.html"
@@ -53,11 +56,11 @@ format:
     df-print: paged
     standalone: false
     fig-align: left
-    title-block-banner: "#E9F2D1"
+    title-block-banner: "assets/images/banner.png"
     author: "{{< meta nbis.analyst.name >}}"
     date:  last-modified
     date-format: "DD-MMM-YYYY"
-    image: "assets/featured.webp"
+    image: "assets/images/featured.webp"
     lightbox: auto
 
 crossref:
@@ -72,7 +75,7 @@ execute:
   echo: true
   warning: false
   message: false
-  freeze: true
+  freeze: false
 
 filters:
   - assets/custom.lua
