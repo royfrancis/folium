@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://royfrancis.github.io/folium/completion.html</loc>
+    <lastmod>2025-03-31T13:27:53.803Z</lastmod>
+  </url>
+  <url>
     <loc>https://royfrancis.github.io/folium/reports/demo.html</loc>
-    <lastmod>2025-01-13T10:27:01.784Z</lastmod>
+    <lastmod>2025-03-31T13:27:53.806Z</lastmod>
   </url>
   <url>
     <loc>https://royfrancis.github.io/folium/index.html</loc>
-    <lastmod>2025-01-13T10:27:01.784Z</lastmod>
-  </url>
-  <url>
-    <loc>https://royfrancis.github.io/folium/completion.html</loc>
-    <lastmod>2025-01-13T10:27:01.784Z</lastmod>
+    <lastmod>2025-03-31T13:27:53.803Z</lastmod>
   </url>
   <url>
     <loc>https://royfrancis.github.io/folium/reports/report.html</loc>
-    <lastmod>2025-01-13T10:27:01.784Z</lastmod>
+    <lastmod>2025-03-31T13:27:53.806Z</lastmod>
   </url>
 </urlset>
