@@ -22,7 +22,7 @@ This is a [quarto](https://quarto.org/) document
 
 ### Character sizes
 
-Custom character sizes. This is an enchanced feature.
+Custom character sizes. This is an enhanced feature.
 
 |Markdown|Rendered|
 |---|---|
@@ -667,7 +667,7 @@ Conditional content is documented [here](https://quarto.org/docs/authoring/condi
 
 ### Inner columns
 
-Organisation of content into columns within the body container.
+Organization of content into columns within the body container.
 
 ```         
 :::: {.columns}
