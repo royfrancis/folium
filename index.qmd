@@ -14,7 +14,7 @@ execute:
 **NBIS ID**: {{< meta nbis.id >}}  
 **Request by**: {{< meta nbis.client.name >}} ({{< meta nbis.client.email >}})  
 **Principal Investigator**: {{< meta nbis.pi.name >}} ({{< meta nbis.pi.email >}})  
-**Organisation**: {{< meta nbis.client.org >}}  
+**Organization**: {{< meta nbis.client.org >}}  
 **NBIS Staff**: {{< meta nbis.analyst.name >}} ({{< meta nbis.analyst.email >}})  
 :::
 
