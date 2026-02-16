@@ -23,7 +23,7 @@ jobs:
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 1.6.43
+          version: 1.8.27
           tinytex: true
       - run: quarto --version
       - run: quarto render
@@ -33,14 +33,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'docs'
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
