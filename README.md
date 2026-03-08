@@ -15,41 +15,46 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 - Required quarto 1.4.549 or higher
 - To download a starter template, run in the terminal
 
-:exclamation: Demo files are not downloaded
+  :exclamation: Demo files are not downloaded
 
-```
-quarto use template royfrancis/folium
-```
+  ```
+  quarto use template royfrancis/folium
+  ```
+
+- Install required extensions
+
+  ```
+  quarto add quarto-ext/fontawesome
+  ```
 
 - Launch preview in the browser
 
-```
-quarto preview
-```
+  ```
+  quarto preview
+  ```
 
-Note that preview will attempt to build all documents.
+  Note that preview will attempt to build all documents.
 
 - Render all html files into `docs` directory
 
-```
-quarto render
-```
+  ```
+  quarto render
+  ```
 
 ## Tips
 
 - Template directory structure
 
-```
-.
-├── assets
-├── completion.qmd
-├── _extensions
-├── index.qmd
-├── _quarto.yml
-└── reports
-    └── report.qmd
-
-```
+  ```
+  .
+  ├── assets
+  ├── completion.qmd
+  ├── _extensions
+  ├── index.qmd
+  ├── _quarto.yml
+  └── reports
+      └── report.qmd
+  ```
 
 - Update `nbis` variables in **_quarto.yml**
 - Add/modify reports in the `reports` directory as needed
