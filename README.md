@@ -12,7 +12,7 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 
 ## Usage
 
-- Required quarto 1.4.549 or higher
+- Required quarto 1.4.5 or higher
 - To download a starter template, run in the terminal
 
   :exclamation: Demo files are not downloaded
@@ -86,4 +86,4 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 
 ---
 
-2025 • Roy Francis
+2026 • Roy Francis

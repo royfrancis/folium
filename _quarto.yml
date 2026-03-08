@@ -13,7 +13,7 @@ website:
     logo-alt: "logo"
     left:
       - text: "Home"
-        href: "index.html"
+        href: "index.qmd"
   page-footer:
     border: false
     left: "{{< meta current_year >}} [NBIS](https://nbis.se)"
@@ -40,7 +40,7 @@ nbis:
 
 format:
   html:
-    quarto-required: ">=1.4.0"
+    quarto-required: ">=1.4.5"
     include-in-header: "assets/include_head.html"
     theme: "assets/css/styles.scss"
     smooth-scroll: true
