@@ -18,6 +18,7 @@ $font-family-monospace: 'Fira Mono', 'Ubuntu Mono', 'Liberation Mono', 'Lucida C
 $font-family-headings: $font-family-sans-serif;
 $mermaid-font-family: 'Nunito', 'Source Sans Pro', 'Helvetica', 'sans-serif' ;
 $font-size-root: 18px;
+$code-font-size: 14px;
 /* major second scale */
 $h1-font-size: 1.802rem;
 $h2-font-size: 1.602rem;
@@ -26,7 +27,6 @@ $h4-font-size: 1.266rem;
 $h5-font-size: 1.125rem;
 $h6-font-size: 1rem;
 $code-block-border-color: none;
-$code-font-size: 0.90rem;
 $code-bg: $code-block-bg; /* inline code */
 /*$code-color: ; */
 
@@ -57,6 +57,8 @@ h1,h2,h3,h4,h5,h6 {
   color: $secondary;
 }
 
+/* navbar  and footer */
+
 .navbar-nav {
   font-size: 0.85em;
   letter-spacing: 0.1em;
@@ -66,18 +68,28 @@ h1,h2,h3,h4,h5,h6 {
   max-height: 20px;
 }
 
-table, .Reactable {
-  font-size: 0.8em;
-}
-.contents-table table {
-  line-height: 1.2;
-}
+/* listing */
 
 .listing-image img {
   height: 40px;
   width: 60px;
   -o-object-fit: cover;
   object-fit: cover;
+}
+
+/* table */
+
+table th,
+table td {
+  vertical-align: middle;
+}
+
+table, .Reactable {
+  font-size: 0.85em;
+}
+
+.contents-table table {
+  line-height: 1;
 }
 
 /* buttons and badges */
@@ -97,9 +109,8 @@ table, .Reactable {
 }
 
 .btn-primary:hover {
-  background-color: $secondary;
+  background-color: darken($primary, 5%);
   color: whitesmoke;
-
 }
 
 .btn-secondary {
@@ -108,7 +119,7 @@ table, .Reactable {
 }
 
 .btn-secondary:hover {
-  background-color: $tertiary;
+  background-color: darken($secondary, 5%);
   color: whitesmoke;
 }
 
