@@ -4,4 +4,6 @@ docs/
 /.luarc.json
 /.quarto/
 .DS_Store
-
+**/*.quarto_ipynb
+_extensions
+docs
