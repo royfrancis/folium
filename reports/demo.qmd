@@ -4,6 +4,11 @@ subtitle: Demo report
 description: "This document showcases some of the in-built capabilities of quarto. It also shows the custom theme, style and usage."
 image: "/assets/images/featured.webp"
 code-tools: true
+format: html
+accordion:
+  - ac-1:
+    - header: "**This is a header**"
+      body: "This is **bold** and *italic* text"
 ---
 
 This is a [quarto](https://quarto.org/) document
@@ -13,10 +18,10 @@ This is a [quarto](https://quarto.org/) document
 ### Headings
 
 ```
-## Level 2 heading  
-### Level 3 heading  
-#### Level 4 heading  
-##### Level 5 heading  
+## Level 2 heading
+### Level 3 heading
+#### Level 4 heading
+##### Level 5 heading
 ###### Level 6 heading
 ```
 
@@ -50,7 +55,7 @@ Custom character sizes. This is an enhanced feature.
 
 ### Blockquote
 
-```         
+```
 > This is a block quote. This
 > paragraph has two lines.
 >
@@ -209,6 +214,23 @@ Ordered lists are created using numbers.
 :::
 :::
 
+## Bootstrap
+
+[Bootstrap](https://getbootstrap.com/docs/5.0/utilities/text/) has many many bult-in classes of it's own. Here are some examples:
+
+`[lOwerCase]{.text-lowercase}`  [lOwerCase]{.text-lowercase}  
+`[lOwerCase]{.text-uppercase}`  [lOwerCase]{.text-uppercase}  
+`[lOwerCase]{.text-capitalize}`  [lOwerCase]{.text-capitalize}  
+`[lOwerCase]{.fs-2}`  [lOwerCase]{.fs-2}  
+`[lOwerCase]{.fw-bold}`  [lOwerCase]{.fw-bold}  
+`[lOwerCase]{.fw-bolder}`  [lOwerCase]{.fw-bolder}  
+`[lOwerCase]{.fw-light}`  [lOwerCase]{.fw-light}  
+`[lOwerCase]{.fw-lighter}`  [lOwerCase]{.fw-lighter}  
+`[lOwerCase]{.fst-italic}`  [lOwerCase]{.fst-italic}  
+`[lOwerCase]{.text-muted}`  [lOwerCase]{.text-muted}  
+`[lOwerCase]{.text-decoration-underline}`  [lOwerCase]{.text-decoration-underline}  
+`[lOwerCase]{.text-decoration-line-through}`  [lOwerCase]{.text-decoration-line-through}  
+
 ## Images
 
 Images can be inserted using plain markdown or HTML directly. Plain markdown can be embellished with custom quarto adjustments to modify aspects of the image. Clicking the image opens the image in a lightbox.
@@ -217,7 +239,7 @@ Images can be inserted using plain markdown or HTML directly. Plain markdown can
 
 Using regular markdown.
 
-```         
+```
 ![](assets/image.webp)
 ```
 
@@ -225,8 +247,8 @@ Using regular markdown.
 
 The dimensions are based on image and/or fill up the entire available space. You can control the dimension as shown below.
 
-```         
-![This is a caption](assets/image.webp){width=30%}  
+```
+![This is a caption](assets/image.webp){width=30%}
 ```
 
 ![This is a caption](assets/image.webp){width="30%"}
@@ -235,7 +257,7 @@ This image above is now 30% of it's original width.
 
 #### Figure layout
 
-```         
+```
 ::: {#fig-mylabel layout-ncol=2}
 ![Caption for figure 1](assets/image.webp){width="40%"}
 
@@ -255,6 +277,20 @@ These figures are interesting.
 
 More figure options and layouts are described [here](https://quarto.org/docs/authoring/figures.html). Cross referencing described [here](https://quarto.org/docs/authoring/cross-references.html).
 
+Here are some [bootstrap](https://getbootstrap.com/docs/5.0/utilities/shadows/) styles:
+
+`![](assets/image.webp){width="20%" class="shadow-sm rounded"}`
+
+![](assets/image.webp){width="20%" class="shadow-sm rounded"}
+
+`![](assets/image.webp){width="20%" class="shadow rounded"}`
+
+![](assets/image.webp){width="20%" class="shadow rounded"}
+
+`![](assets/image.webp){width="20%" class="shadow-lg rounded-pill"}`
+
+![](assets/image.webp){width="20%" class="shadow-lg rounded-pill"}
+
 ### Using HTML
 
 This image below is 30% size.\
@@ -271,7 +307,7 @@ Some examples of rendering equations.
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $e^{i\pi} + 1 = 0$
 ```
 
@@ -286,7 +322,7 @@ $e^{i\pi} + 1 = 0$
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $$\frac{E \times X^2 \prod I}{2+7} = 432$$
 ```
 
@@ -301,7 +337,7 @@ $$\frac{E \times X^2 \prod I}{2+7} = 432$$
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $$\sum_{i=1}^n X_i$$
 ```
 
@@ -316,7 +352,7 @@ $$\sum_{i=1}^n X_i$$
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $$\int_0^{2\pi} \sin x~dx$$
 ```
 
@@ -331,7 +367,7 @@ $$\int_0^{2\pi} \sin x~dx$$
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $\left( \sum_{i=1}^{n}{i} \right)^2 = \left( \frac{n(n-1)}{2}\right)^2 = \frac{n^2(n-1)^2}{4}$
 ```
 
@@ -346,7 +382,7 @@ $\left( \sum_{i=1}^{n}{i} \right)^2 = \left( \frac{n(n-1)}{2}\right)^2 = \frac{n
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $\begin{eqnarray} X & \sim & \mathrm{N}(0,1)\\ Y & \sim & \chi^2_{n-p}\\ R & \equiv & X/Y \sim t_{n-p} \end{eqnarray}$
 ```
 
@@ -361,7 +397,7 @@ $\begin{eqnarray} X & \sim & \mathrm{N}(0,1)\\ Y & \sim & \chi^2_{n-p}\\ R & \eq
 ::: {.grid}
 ::: {.g-col-6}
 
-```         
+```
 $\begin{eqnarray} P(|X-\mu| > k) & = & P(|X-\mu|^2 > k^2)\\ & \leq & \frac{\mathbb{E}\left[|X-\mu|^2\right]}{k^2}\\ & \leq & \frac{\mathrm{Var}[X]}{k^2} \end{eqnarray}$
 ```
 
@@ -381,7 +417,7 @@ For simple cases, tables can be manually created in markdown.
 ::: {.grid}
 ::: {.g-col-7}
 
-```         
+```
 |speed|dist|
 |-----|----|
 |4    |   2|
@@ -406,7 +442,7 @@ Table caption and numbering can be added as such:
 ::: {.grid}
 ::: {.g-col-7}
 
-```         
+```
 |speed|dist|
 |-----|----|
 |4    |   2|
@@ -481,17 +517,18 @@ To use [fontawesome](https://fontawesome.com/search?m=free) icons as shortcodes,
 
 Icons can be placed using shortcodes.
 
-`{{{< fa lightbulb >}}}`      {{< fa lightbulb >}}     
-`{{{< fa exclamation >}}}`    {{< fa exclamation >}}   
+`{{{< fa lightbulb >}}}`      {{< fa lightbulb >}}  
+`{{{< fa exclamation >}}}`    {{< fa exclamation >}}  
 `{{{< fa clipboard-list >}}}` {{< fa clipboard-list >}}  
-`{{{< fa comments >}}}`       {{< fa comments >}}      
-`{{{< fa desktop >}}}`        {{< fa desktop >}}       
-`{{{< fa cloud >}}}`          {{< fa cloud >}}         
-`{{{< fa check >}}}`          {{< fa check >}}         
-`{{{< fa times >}}}`          {{< fa times >}}         
-`{{{< fa skull >}}}`          {{< fa skull >}}         
-`{{{< fa skull size=2x >}}}`  {{< fa skull size=2x >}}   
-`{{{< fa brands github >}}}`  {{< fa brands github >}}
+`{{{< fa comments >}}}`       {{< fa comments >}}  
+`{{{< fa desktop >}}}`        {{< fa desktop >}}  
+`{{{< fa cloud >}}}`          {{< fa cloud >}}  
+`{{{< fa check >}}}`          {{< fa check >}}  
+`{{{< fa times >}}}`          {{< fa times >}}  
+`{{{< fa skull >}}}`          {{< fa skull >}}  
+`{{{< fa skull size=2x >}}}`  {{< fa skull size=2x >}}  
+`{{{< fa brands github >}}}`  {{< fa brands github >}}  
+`{{{< fa brands youtube >}}}`  {{< fa brands youtube >}}  
 
 Icons can be displayed using the HTML `<i>` tag. Note that not all icons may work.
 
@@ -499,13 +536,13 @@ Icons can be displayed using the HTML `<i>` tag. Note that not all icons may wor
 
 Here is a <i class='fa fa-calendar'></i> calendar and a <i class='fa fa-couch'></i> couch.
 
-There are many other quarto extensions for icons such as [academicons](https://github.com/schochastics/academicons), [iconify](https://github.com/mcanouil/quarto-iconify) and [lordicons](https://github.com/jmgirard/lordicon). 
+There are many other quarto extensions for icons such as [academicons](https://github.com/schochastics/academicons), [iconify](https://github.com/mcanouil/quarto-iconify) and [lordicons](https://github.com/jmgirard/lordicon).
 
 ## Call-Outs
 
 Call-Out blocks are explained [here](https://quarto.org/docs/authoring/callouts.html).
 
-```         
+```
 ::: {.callout-note}
 This is a call-out.
 :::
@@ -559,11 +596,31 @@ This is a call-out.
 This content is behind an accordion.
 :::
 
+```         
+::: {.callout-note appearance="simple"}
+This is a call-out.
+:::
+```
+
+::: {.callout-note appearance="simple"}
+This is a call-out.
+:::
+
+```         
+::: {.callout-note appearance="minimal"}
+This is a call-out.
+:::
+```
+
+::: {.callout-note appearance="minimal"}
+This is a call-out.
+:::
+
 ## Alerts
 
 This is not a quarto feature, but rather from bootstrap.
 
-```         
+```
 ::: {.alert .alert-primary}
 **Note:** This is an alert!
 :::
@@ -637,7 +694,7 @@ Divs can be nested like this:
 ::::
 ```
 
-Both spans and divs support attributes in this specific order: identifiers, classes, and then key-value attributes. 
+Both spans and divs support attributes in this specific order: identifiers, classes, and then key-value attributes.
 
 `[Content inside span]{#id .class key1="val1" key2="val2"}`
 
@@ -669,7 +726,7 @@ Conditional content is documented [here](https://quarto.org/docs/authoring/condi
 
 Organization of content into columns within the body container.
 
-```         
+```
 :::: {.columns}
 ::: {.column style="background-color: aliceblue"}
 Content is left.
@@ -694,7 +751,7 @@ Content in right column.
 
 This is an example of nested columns.
 
-```         
+```
 :::: {.columns}
 
 ::: {.column style="background-color: aliceblue"}
@@ -742,7 +799,7 @@ Nested right.
 
 Extending content outside the body container.
 
-```         
+```
 ::: {.column-body style="background-color: lightgray; margin-bottom:0.5em;"}
 .column-body
 :::
@@ -882,7 +939,7 @@ Extending content outside the body container.
 
 ### Panel layout
 
-```         
+```
 ::: {.panel-tabset}
 #### Sub topic 1
 
@@ -909,15 +966,13 @@ More layout settings are described [here](https://quarto.org/docs/authoring/arti
 
 ## Shortcodes
 
-Shortcodes are sort of like quarto functions. 
+Shortcodes are sort of like quarto functions.
 
 Two important shortcodes are `meta` and `var`. `meta` allows to read metadata from the yaml block in the current page or from `_quarto.yml`. Here are a few examples:
 
 `{{{< meta title >}}}` {{< meta title >}}
 
-`![]({{{< meta image >}}}){width="300px"}` 
-
-![]({{< meta image >}}){width="300px"}
+`{{{< meta description >}}}` {{< meta description >}}
 
 Similarly, `var` allows to read variables from `_variables.yml` if it has been defined. The `include` shortcode allows to add a child qmd document into a specific position in a qmd file. The `kbd` shortcode allows keyboard notations:
 
@@ -938,6 +993,49 @@ Some of the custom shortcodes added with this template are:
 
 Shortcodes are documented [here](https://quarto.org/docs/authoring/shortcodes.html).
 
+## Accordions
+
+Accordion support is provided through the [accordion](https://github.com/royfrancis/accordion) extension.
+
+Accordion contents can be defined in the YAML header as shown below.
+
+```yaml
+accordion:
+  - ac-1:
+    - header: "**This is a header**"
+      body: "This is **bold** and *italic* text"
+```
+
+and then called in the body using the shortcode.
+
+```lua
+{{{< accordion ac-1 >}}}
+```
+
+{{< accordion ac-1 >}}
+
+Alternatively, an accordion can be defined inline as shown below.
+
+```lua
+{{{< accordion label="my-accordion" header="Click to expand" body="This is the content of the accordion." >}}}
+```
+
+{{< accordion label="my-accordion" header="Click to expand" body="This is the content of the accordion." >}}
+
+Multiple inline items are defined using JSON.
+
+```
+{{{< accordion label="inline-multi" items='[
+  { "header": "Inline Item 1", "body": "Content for inline item 1." },
+  { "header": "Inline Item 2", "body": "Content for inline item 2." }
+]' >}}}
+```
+
+{{< accordion label="inline-multi" items='[
+  { "header": "Inline Item 1", "body": "Content for inline item 1." },
+  { "header": "Inline Item 2", "body": "Content for inline item 2." }
+]' >}}
+
 ## General tips
 
 -   Use level 2 heading as the highest level
@@ -948,3 +1046,4 @@ Shortcodes are documented [here](https://quarto.org/docs/authoring/shortcodes.ht
 
 -   Add custom css under YAML if needed `css: "my-theme.css"`
 -   Check out the [Quarto](https://quarto.org/) website
+

@@ -40,7 +40,7 @@ nbis:
 
 format:
   html:
-    quarto-required: ">=1.4.5"
+    quarto-required: ">=1.8.25"
     include-in-header: "assets/include_head.html"
     theme: "assets/css/styles.scss"
     smooth-scroll: true
@@ -53,7 +53,7 @@ format:
     code-tools: false
     code-copy: true
     code-overflow: wrap
-    df-print: paged
+    df-print: kable
     standalone: false
     fig-align: left
     title-block-banner: "assets/images/banner.png"
@@ -79,5 +79,6 @@ execute:
 
 filters:
   - assets/custom.lua
-  - assets/fold-results.lua
+  - collapse-output
   - fontawesome
+
