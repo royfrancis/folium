@@ -24,7 +24,7 @@ jobs:
       - name: Setup quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: 1.9.35
+          version: 1.10.18
           tinytex: true
 
       - run: quarto --version
