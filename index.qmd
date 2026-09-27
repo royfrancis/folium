@@ -1,5 +1,5 @@
 ---
-title: "NBIS support {{< meta nbis.id >}}"
+title: "NBIS Support {{< meta nbis.id >}}"
 subtitle: "Project title"
 date: ""
 author: ""
@@ -11,11 +11,9 @@ execute:
 ---
 
 ::: {.alert .alert-secondary}
-**NBIS ID**: {{< meta nbis.id >}}  
-**Request by**: {{< meta nbis.client.name >}} ({{< meta nbis.client.email >}})  
-**Principal Investigator**: {{< meta nbis.pi.name >}} ({{< meta nbis.pi.email >}})  
-**Organization**: {{< meta nbis.client.org >}}  
-**NBIS Staff**: {{< meta nbis.analyst.name >}} ({{< meta nbis.analyst.email >}})  
+
+{{< contributors >}}
+
 :::
 
 **Support request**

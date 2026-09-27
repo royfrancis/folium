@@ -58,7 +58,7 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
       └── report.qmd
   ```
 
-- Update `nbis` variables in **_quarto.yml**
+- Update `nbis.id` (the support request ID) and `contributors` in **_quarto.yml**.
 - Add/modify reports in the `reports` directory as needed
 - To selectively preview/render files:
   ```
@@ -81,6 +81,7 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 
 - Use `##` as the highest level heading. Do not use `#`.
 - The site won't be indexed by search engines (probably) due to `<meta name="robots" content="noindex">` in head.
+- See [demo site](https://royfrancis.github.io/folium) for more information
 
 ## Acknowledgements
 

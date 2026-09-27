@@ -27,16 +27,24 @@ website:
 
 nbis:
   id: "0000"
-  client: 
-    name: "John Doe"
-    email: "john.doe@email.com"
-    org: "Some university"
-  pi:
-    name: "John Doe"
-    email: "john.doe@email.com"
-  analyst:
-    name: "John Doe"
-    email: "john.doe@nbis.se"
+# contributor information to be displayed on home page
+contributors:
+  - name: "Person A"
+    email: "name@nbis.se"
+    affiliation: "NBIS"
+    roles: "NBIS Staff"
+  - name: "Person B"
+    email: "name@nbis.se"
+    affiliation: "NBIS"
+    roles: "NBIS Staff"
+  - name: "Name"
+    email: "name@email.com"
+    affiliation: "Some university"
+    roles: "User"
+  - name: "Name"
+    email: "name@email.com"
+    affiliation: "Some university"
+    roles: "Principal Investigator"
 
 format:
   html:
