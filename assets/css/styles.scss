@@ -4,7 +4,7 @@
 
 /* colours, fonts, size ---------------------------------------------------------------------- */
 
-// @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Nunito:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Nunito:ital,wght@0,200..700;1,200..700&display=swap');
 
 $primary: #95b540;
 $secondary: #BDD775;
@@ -13,12 +13,12 @@ $link-color: $primary;
 $body-color: #1c2833;
 $code-color: #496985;
 $code-block-bg: WhiteSmoke;
-$font-family-sans-serif: 'Nunito', 'Source Sans Pro', 'Helvetica', 'sans-serif' ;
-$font-family-monospace: 'Fira Mono', 'Ubuntu Mono', 'Liberation Mono', 'Lucida Console', 'Courier', 'monospace';
+$font-family-sans-serif: 'Nunito', 'Source Sans Pro', 'Helvetica', sans-serif;
+$font-family-monospace: 'Fira Mono', 'Ubuntu Mono', 'Liberation Mono', 'Lucida Console', 'Courier', monospace;
 $font-family-headings: $font-family-sans-serif;
-$mermaid-font-family: 'Nunito', 'Source Sans Pro', 'Helvetica', 'sans-serif' ;
+$mermaid-font-family: 'Nunito', 'Source Sans Pro', 'Helvetica', sans-serif;
 $font-size-root: 18px;
-$code-font-size: 14px;
+$code-font-size: 15px;
 /* major second scale */
 $h1-font-size: 1.802rem;
 $h2-font-size: 1.602rem;
@@ -57,6 +57,12 @@ h1,h2,h3,h4,h5,h6 {
   color: $secondary;
 }
 
+@media (max-width: 575.98px) {
+  .fourofour {
+    font-size: 8rem;
+  }
+}
+
 /* navbar  and footer */
 
 .navbar-nav {
@@ -92,35 +98,52 @@ table, .Reactable {
   line-height: 1;
 }
 
-/* buttons and badges */
+/* buttons */
 
-.badge,
-.badge-primary {
-  background-color: $primary;
-}
-
-.badge-secondary {
-  background-color: $secondary;
-}
-
+.btn,
 .btn-primary {
-  background-color: $primary;
-  color: whitesmoke;
-}
-
-.btn-primary:hover {
-  background-color: darken($primary, 5%);
-  color: whitesmoke;
+  --bs-btn-color: whitesmoke;
+  --bs-btn-bg: #{$primary};
+  --bs-btn-border-color: #{$primary};
+  --bs-btn-hover-color: whitesmoke;
+  --bs-btn-hover-bg: #{darken($primary, 5%)};
+  --bs-btn-hover-border-color: #{darken($primary, 5%)};
+  --bs-btn-active-color: whitesmoke;
+  --bs-btn-active-bg: #{darken($primary, 10%)};
+  --bs-btn-active-border-color: #{darken($primary, 10%)};
+  --bs-btn-disabled-color: whitesmoke;
+  --bs-btn-disabled-bg: #{$primary};
+  --bs-btn-disabled-border-color: #{$primary};
 }
 
 .btn-secondary {
-  background-color: $secondary;
-  color: whitesmoke;
+  --bs-btn-color: whitesmoke;
+  --bs-btn-bg: #{$secondary};
+  --bs-btn-border-color: #{$secondary};
+  --bs-btn-hover-color: whitesmoke;
+  --bs-btn-hover-bg: #{darken($secondary, 5%)};
+  --bs-btn-hover-border-color: #{darken($secondary, 5%)};
+  --bs-btn-active-color: whitesmoke;
+  --bs-btn-active-bg: #{darken($secondary, 10%)};
+  --bs-btn-active-border-color: #{darken($secondary, 10%)};
+  --bs-btn-disabled-color: whitesmoke;
+  --bs-btn-disabled-bg: #{$secondary};
+  --bs-btn-disabled-border-color: #{$secondary};
 }
 
-.btn-secondary:hover {
-  background-color: darken($secondary, 5%);
-  color: whitesmoke;
+.btn-tertiary {
+  --bs-btn-color: #{$body-color};
+  --bs-btn-bg: #{$tertiary};
+  --bs-btn-border-color: #{$tertiary};
+  --bs-btn-hover-color: #{$body-color};
+  --bs-btn-hover-bg: #{darken($tertiary, 5%)};
+  --bs-btn-hover-border-color: #{darken($tertiary, 5%)};
+  --bs-btn-active-color: #{$body-color};
+  --bs-btn-active-bg: #{darken($tertiary, 10%)};
+  --bs-btn-active-border-color: #{darken($tertiary, 10%)};
+  --bs-btn-disabled-color: #{$body-color};
+  --bs-btn-disabled-bg: #{$tertiary};
+  --bs-btn-disabled-border-color: #{$tertiary};
 }
 
 .btn a {
@@ -128,7 +151,40 @@ table, .Reactable {
   text-decoration: none;
 }
 
-/* observablejs */
+.btn-tertiary a, .btn-tertiary a:hover {
+  color: $body-color;
+}
+
+/* badges */
+
+.badge,
+.badge.badge-primary {
+  background-color: $primary;
+  color: whitesmoke;
+}
+
+.badge.badge-secondary {
+  background-color: $secondary;
+  color: whitesmoke;
+}
+
+.badge.badge-tertiary {
+  background-color: $tertiary;
+  color: $body-color;
+}
+
+.badge a,
+.badge a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.badge.badge-tertiary a,
+.badge.badge-tertiary a:hover {
+  color: $body-color;
+}
+
+/* observablehq */
 
 .observablehq .btn {
   @extend .btn-sm;
@@ -210,7 +266,7 @@ code {
   word-break: break-word !important;
   white-space: pre-wrap !important;
 }
-      
+
 /* call-out */
 
 .callout {
