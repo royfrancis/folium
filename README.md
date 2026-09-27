@@ -1,6 +1,6 @@
-# folium <span><a href="https://github.com/royfrancis/folium"><img src="assets/favicon.png" style="height:40px;vertical-align:middle;"></a></span>
+# folium <span><a href="https://github.com/royfrancis/folium"><img src="assets/favicon.png" style="height:30px;vertical-align:middle;"></a></span>
 
-[![ci_badge](https://github.com/royfrancis/folium/workflows/deploy/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=deploy)  [![linkcheck_badge](https://github.com/royfrancis/folium/workflows/linkcheck/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=linkcheck)  
+[![ci_badge](https://github.com/royfrancis/folium/workflows/deploy/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=deploy)  [![linkcheck_badge](https://github.com/royfrancis/folium/workflows/linkcheck/badge.svg)](https://github.com/royfrancis/folium/actions?workflow=linkcheck)
 
 A quarto website template for project reports. For a single page template, see [folium-webpage](https://github.com/royfrancis/folium-webpage).
 
