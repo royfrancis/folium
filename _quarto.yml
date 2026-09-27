@@ -39,27 +39,30 @@ website:
 
 # author name(s) to display on all pages
 author: "Person A"
-# nbis redmine id
+# nbis specific variables
 nbis:
+  # nbis redmine id
   id: "0000"
-# contributor information to be displayed on home page
-contributors:
-  - name: "Person A"
-    email: "name@nbis.se"
-    affiliation: "NBIS"
-    roles: "NBIS Staff"
-  - name: "Person B"
-    email: "name@nbis.se"
-    affiliation: "NBIS"
-    roles: "NBIS Staff"
-  - name: "Name"
-    email: "name@email.com"
-    affiliation: "Some university"
-    roles: "User"
-  - name: "Name"
-    email: "name@email.com"
-    affiliation: "Some university"
-    roles: "Principal Investigator"
+  # contributor information to be displayed on home page
+  contributors:
+    - name: "Person A"
+      email: "name@nbis.se"
+      affiliation: 
+        - "NBIS"
+        - "Uppsala University"
+      roles: "NBIS Staff"
+    - name: "Person B"
+      email: "name@nbis.se"
+      affiliation: "NBIS"
+      roles: "NBIS Staff"
+    - name: "Name"
+      email: "name@email.com"
+      affiliation: "Some university"
+      roles: "User"
+    - name: "Name"
+      email: "name@email.com"
+      affiliation: "Some university"
+      roles: "Principal Investigator"
 
 # configure output formats
 format:

@@ -58,7 +58,7 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
       └── report.qmd
   ```
 
-- Update `nbis.id` (the support request ID) and `contributors` in **_quarto.yml**.
+- Update `nbis.id` (the support request ID) and `nbis.contributors` in **_quarto.yml**.
 - Add/modify reports in the `reports` directory as needed
 - To selectively preview/render files:
   ```

@@ -2,10 +2,9 @@
 -- heading per role followed by a wrapping grid of person cards (name, email,
 -- affiliation, ...). Styled in assets/css/styles.scss under .quarto-contributors.
 --
--- Reads its own top-level `contributors:` metadata key (a list of people, each
--- with name/email/affiliation/roles/orcid/url) — a custom key, independent of
--- Quarto's built-in `author`/`authors` key, which this shortcode never reads
--- or touches.
+-- Reads the custom `nbis.contributors:` metadata key (a list of people, each
+-- with name/email/affiliation/roles/orcid/url), independent of Quarto's built-in
+-- `author`/`authors` key, which this shortcode never reads or touches.
 --
 -- Optional: filter to specific roles (case-insensitive) either as positional
 -- args, {{< contributors analyst pi >}}, or as a comma-separated kwarg,
@@ -123,7 +122,7 @@ local function build_filter(args, kwargs)
 end
 
 local function contributors_shortcode(args, kwargs, meta)
-  local contributors = meta.contributors
+  local contributors = meta.nbis and meta.nbis.contributors
   if not contributors or #contributors == 0 then
     return {}
   end

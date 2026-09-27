@@ -4,15 +4,16 @@ subtitle: Folium template guide
 description: "Reference for template settings and usage."
 code-tools: true
 format: html
-contributors:
-  - name: "Ola Nordmann"
-    email: "ola.nordmann@nbis.se"
-    affiliation: "NBIS"
-    roles: "Analyst"
-  - name: "Kari Nordmann"
-    email: "kari.nordmann@example.com"
-    affiliation: "Some university"
-    roles: ["Client", "Principal Investigator"]
+nbis:
+  contributors:
+    - name: "Ola Nordmann"
+      email: "ola.nordmann@nbis.se"
+      affiliation: "NBIS"
+      roles: "Analyst"
+    - name: "Kari Nordmann"
+      email: "kari.nordmann@example.com"
+      affiliation: "Some university"
+      roles: ["Client", "Principal Investigator"]
 ---
 
 This page covers the **folium** template settings, contributors, custom files, branding, and extensions. For general Quarto syntax, see [Demo Report](demo.qmd). To start a report, use [Report](report.qmd).
@@ -62,7 +63,7 @@ author:
   - "Person B"
 ```
 
-The custom `contributors` key lists people who worked on the project:
+The custom `nbis.contributors` key lists people who worked on the project:
 
 | Field | Notes |
 |---|---|
@@ -70,6 +71,21 @@ The custom `contributors` key lists people who worked on the project:
 | `email` | Optional email link. |
 | `affiliation` | Optional string or list. |
 | `roles` | Optional string or list. Missing roles appear under **Contributor**. |
+
+The example contributors block used on this page is as follows:
+
+```yaml
+nbis:
+  contributors:
+    - name: "Ola Nordmann"
+      email: "ola.nordmann@nbis.se"
+      affiliation: "NBIS"
+      roles: "Analyst"
+    - name: "Kari Nordmann"
+      email: "kari.nordmann@example.com"
+      affiliation: "Some university"
+      roles: ["Client", "Principal Investigator"]
+```
 
 Display all contributors with:
 
