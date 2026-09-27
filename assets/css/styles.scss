@@ -313,17 +313,24 @@ div.callout-important .callout-icon::before {
   margin: 2em 0 !important;
 }
 
-
 /* contributors shortcode */
+
+.quarto-contributors {
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
 
 .quarto-contributors-role {
   margin-bottom: 1rem;
 }
 
+.quarto-contributors > .quarto-contributors-role:last-child {
+  margin-bottom: 0;
+}
+
 .quarto-contributors-role-title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.8rem;
   letter-spacing: 0.06em;
   color: #A9A9A9;
   margin-bottom: 0.2rem;
