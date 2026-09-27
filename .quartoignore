@@ -1,11 +1,7 @@
-README.md
-.git
-.Rhistory
-preview*
-docs
+/preview*
+/docs/
 **/*_cache
 **/*_files
-reports/demo.qmd
-reports/assets/featured.webp
-folium.png
-.lycheeignore
+/reports/demo.qmd
+/reports/usage.qmd
+/reports/assets/

@@ -1,16 +1,27 @@
+# quarto project configuration
 project:
+  # render the project as a website
   type: website
+  # write rendered website files to this directory
   output-dir: docs
 
+# quarto website project configuration
 website:
+  # generate Open Graph metadata for social sharing
   open-graph: true
+  # set the canonical public URL of the site
   site-url: "https://royfrancis.github.io/folium/"
   image: "assets/images/seo.webp"
+  # describe the site for search engines and social previews
   description: "A quarto website template for project reports."
+  # use this image as the browser favicon
   favicon: "assets/favicon.png"
+  # configure the site navigation bar
   navbar:
+    # display this logo in the navigation bar
     logo: "assets/logos/nbis-scilifelab.webp"
     logo-alt: "logo"
+    # place these navigation items on the right side
     left:
       - text: "Home"
         href: "index.qmd"
@@ -18,6 +29,7 @@ website:
     border: false
     left: "{{< meta current_year >}} [NBIS](https://nbis.se)"
     right: "Published with [Quarto](https://quarto.org/) v{{< meta quarto_version >}}"
+  # sidebar navigation
   sidebar:
     contents:
       - section: Reports
@@ -25,6 +37,9 @@ website:
       - "completion.qmd"
   bread-crumbs: false
 
+# author name(s) to display on all pages
+author: "Person A"
+# nbis redmine id
 nbis:
   id: "0000"
 # contributor information to be displayed on home page
@@ -46,31 +61,51 @@ contributors:
     affiliation: "Some university"
     roles: "Principal Investigator"
 
+# configure output formats
 format:
+  # configure HTML document output
   html:
+    # require this minimum Quarto version for HTML rendering
     quarto-required: ">=1.8.25"
+    # insert this HTML in the document head
     include-in-header: "assets/include_head.html"
+    # apply this custom CSS style
     theme: "assets/css/styles.scss"
+    # animate in-page anchor navigation
     smooth-scroll: true
+    # generate a table of contents
     toc: true
+    # include headings through level five in the table of contents
     toc-depth: 5
     toc-location: right
+    # number document sections
     number-sections: true
+    # number headings up to level five
     number-depth: 4
     code-fold: true
     code-tools: false
+    # add copy buttons to code blocks
     code-copy: true
+    # wrap long code lines instead of overflowing
     code-overflow: wrap
+    # print data frames using the kable format
     df-print: kable
-    standalone: false
+    # align figures to the left
     fig-align: left
+    # use this image as the title block banner
     title-block-banner: "assets/images/banner.png"
-    author: "{{< meta nbis.analyst.name >}}"
-    date:  last-modified
+    # set the default document subtitle
+    subtitle: "NBIS Support {{< meta nbis.id >}}"
+    # display each document's last-modified date
+    date: last-modified
+    # format displayed dates with day, month, and year
     date-format: "DD-MMM-YYYY"
+    # use this image as the default page image, for listing
     image: "assets/images/featured.webp"
+    # images can be opened in a lightbox
     lightbox: auto
 
+# cross reference format
 crossref:
   fig-title: "**Fig**"
   fig-labels: arabic
@@ -78,15 +113,29 @@ crossref:
   tbl-labels: arabic
   title-delim: "**:**"
 
+# configure document execution defaults
 execute:
+  # evaluate executable code cells
   eval: true
+  # include executed code in rendered output
   echo: true
+  # suppress code execution warnings
   warning: false
+  # suppress code execution messages
   message: false
+  # disable freezing executable chunks
   freeze: false
 
+# apply these document filters across the whole project
 filters:
+  # use custom filters
   - assets/custom.lua
+  # enable collapsible output blocks
   - collapse-output
   - fontawesome
+
+# apply these shortcodes across the whole project
+shortcodes:
+  # displays the contributor information
+  - assets/contributors.lua
 

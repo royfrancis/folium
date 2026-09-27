@@ -1,0 +1,137 @@
+---
+title: Usage
+subtitle: Folium template guide
+description: "Reference for template settings and usage."
+code-tools: true
+format: html
+contributors:
+  - name: "Ola Nordmann"
+    email: "ola.nordmann@nbis.se"
+    affiliation: "NBIS"
+    roles: "Analyst"
+  - name: "Kari Nordmann"
+    email: "kari.nordmann@example.com"
+    affiliation: "Some university"
+    roles: ["Client", "Principal Investigator"]
+---
+
+This page covers the **folium** template settings, contributors, custom files, branding, and extensions. For general Quarto syntax, see [Demo Report](demo.qmd). To start a report, use [Report](report.qmd).
+
+## Project setup
+
+Update these `_quarto.yml` fields when starting a project:
+
+| Key | Purpose |
+|---|---|
+| `nbis.id` | NBIS support request ID, such as `"2222"`. Used in the default subtitle and `report.qmd`. |
+| `website.site-url` | Public URL of the site. |
+| `website.favicon` | Browser tab icon. |
+| `website.navbar.logo` | Navbar logo. |
+| `format.html.title-block-banner` | Page title banner. |
+| `format.html.image` | Default featured image; pages can override it. |
+| `website.image` | Social preview image. |
+
+Any site-wide default in `_quarto.yml` can be overridden in a page's YAML frontmatter. Common options are:
+
+- `toc`, `number-sections`, and `number-depth` control navigation and numbering.
+- `code-fold`, `code-tools`, and `code-copy` control code blocks.
+- `date` and `date-format` control page dates. Use `date: ""` to hide the date.
+- `subtitle` overrides the default `"NBIS Support {{< meta nbis.id >}}"`.
+- `execute` controls code evaluation, output, warnings, and caching.
+
+The sidebar automatically lists files matching `reports/*`. To manage links manually, remove `website.sidebar` from `_quarto.yml` and add links to `index.qmd`.
+
+`completion.qmd` contains standard NBIS completion text and normally does not need editing. To hide it until the project is finished, add this to `_quarto.yml`:
+
+```yaml
+project:
+  render:
+    - "*.qmd"
+    - "!completion.qmd"
+```
+
+Use `reports/report.qmd` as the starting point for a support report. It includes a version history and sections for setup, methods, deliverables, summary, conclusion, and session information. Use `##` for top-level body headings because `#` is reserved for the page title.
+
+## Authors and metadata
+
+The top-level `author` in `_quarto.yml` applies to every page. Use `author: ""` on a page to hide it. Multiple authors can be listed:
+
+```
+author: 
+  - "Person A"
+  - "Person B"
+```
+
+The custom `contributors` key lists people who worked on the project:
+
+| Field | Notes |
+|---|---|
+| `name` | Required. Entries without a name and duplicate names are skipped. |
+| `email` | Optional email link. |
+| `affiliation` | Optional string or list. |
+| `roles` | Optional string or list. Missing roles appear under **Contributor**. |
+
+Display all contributors with:
+
+{{< contributors >}}
+
+Filter by role with positional arguments or `roles=`. Matching is case-insensitive:
+
+```
+::: {.callout-note}
+{{{< contributors analyst pi >}}}
+:::
+```
+
+::: {.callout-note}
+{{< contributors analyst pi >}}
+:::
+
+People matching several roles appear under each role. Contributor styles use `.quarto-contributors-*` classes in `assets/css/styles.scss`.
+
+**Computed metadata.** A custom Lua filter (`assets/custom.lua`) adds metadata such as `quarto_version`, `current_date`, `current_year`, `current_time`, `output-dir`, and `output-dir-path`. [Demo Report → Shortcodes](demo.qmd#shortcodes) shows live examples. Selected `_quarto.yml` values are available under `custom.*`, for example `` `{{{< meta custom.website.site-url >}}}` ``.
+
+::: {.callout-caution}
+`{{{< meta custom.* >}}}` supports only simple scalar values under `project`, `website`, and `format`. Lists, flow-style values, and block scalars render as `[unsupported yaml]`.
+:::
+
+## Styling and extensions
+
+Two files control the site's appearance:
+
+- **`assets/include_head.html`** loads fonts and prevents search indexing with `<meta name="robots" content="noindex">`. Remove that line to make a published site discoverable.
+- **`assets/css/styles.scss`** defines the colors, fonts, and custom classes:
+  - Font-size spans: `.largest`, `.larger`, `.large`, `.small`, `.smaller`, `.smallest`
+  - Buttons: `.btn-primary`, `.btn-secondary`, `.btn-tertiary` (combine with Quarto's own `.btn`)
+  - Badges: `.badge-primary`, `.badge-secondary`, `.badge-tertiary` (combine with `.badge`)
+  - `.contents-table` for compact tables
+  - `.fourofour` for the custom 404 heading
+
+The theme also styles Quarto's standard callouts.
+
+Three Quarto extensions are bundled under `_extensions/`:
+
+- **`quarto-ext/fontawesome`** and **`royfrancis/accordion`** are demonstrated in [Demo Report](demo.qmd).
+- **`mcanouil/collapse-output`** makes code output collapsible:
+
+  ```{{python}}
+  #| output-fold: true
+  #| output-summary: "Click to view"
+  ```
+
+  `output-summary` is optional and defaults to `"Code Output"`.
+
+For a fresh template without the committed `_extensions/` directory, install them once:
+
+```
+quarto add quarto-ext/fontawesome
+quarto add mcanouil/quarto-collapse-output@1.4.0
+quarto add royfrancis/quarto-accordion
+```
+
+## Building and publishing
+
+- `quarto preview` previews the full site.
+- `quarto preview reports/usage.qmd` previews one page.
+- `quarto render reports/usage.qmd` renders one page.
+- `quarto render` builds the site in `docs/`.

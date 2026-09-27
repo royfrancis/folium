@@ -1,6 +1,6 @@
 ---
-title: Report
-subtitle: "NBIS support {{< meta nbis.id >}}"
+title: Minimal Report
+subtitle: "NBIS Support {{< meta nbis.id >}}"
 description: "Report description"
 code-tools: true
 ---
@@ -30,7 +30,7 @@ Content
 
 ## Summary
 
-Contents
+Content
 
 ## Conclusion
 
