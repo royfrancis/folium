@@ -37,7 +37,7 @@ Any site-wide default in `_quarto.yml` can be overridden in a page's YAML frontm
 - `toc`, `number-sections`, and `number-depth` control navigation and numbering.
 - `code-fold`, `code-tools`, and `code-copy` control code blocks.
 - `date` and `date-format` control page dates. Use `date: ""` to hide the date.
-- `subtitle` overrides the default `"NBIS Support {{< meta nbis.id >}}"`.
+- `subtitle` overrides the default `"NBIS Support {{{< meta nbis.id >}}}"`.
 - `execute` controls code evaluation, output, warnings, and caching.
 
 The sidebar automatically lists files matching `reports/*`. To manage links manually, remove `website.sidebar` from `_quarto.yml` and add links to `index.qmd`.
@@ -124,8 +124,7 @@ Two files control the site's appearance:
   - `.fourofour` for the custom 404 heading
 
 The theme also styles Quarto's standard callouts.
-
-Three Quarto extensions are bundled under `_extensions/`:
+Quarto extensions are bundled under `_extensions/`:
 
 - **`quarto-ext/fontawesome`** and **`royfrancis/accordion`** are demonstrated in [Demo Report](demo.qmd).
 - **`mcanouil/collapse-output`** makes code output collapsible:
