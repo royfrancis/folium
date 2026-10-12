@@ -5,6 +5,7 @@ description: "Reference for template settings and usage."
 code-tools: true
 format: html
 nbis:
+  id: "0000"
   contributors:
     - name: "Ola Nordmann"
       email: "ola.nordmann@nbis.se"
@@ -72,10 +73,13 @@ The custom `nbis.contributors` key lists people who worked on the project:
 | `affiliation` | Optional string or list. |
 | `roles` | Optional string or list. Missing roles appear under **Contributor**. |
 
+The extension provides no `nbis` defaults. Set `nbis.id` and the complete `nbis.contributors` list in `_quarto.yml`. A page-level `nbis` block replaces the project-level block, so it must repeat every NBIS value that page needs.
+
 The example contributors block used on this page is as follows:
 
 ```yaml
 nbis:
+  id: "0000"
   contributors:
     - name: "Ola Nordmann"
       email: "ola.nordmann@nbis.se"
@@ -135,6 +139,68 @@ Quarto extensions are bundled under `_extensions/`:
   ```
 
   `output-summary` is optional and defaults to `"Code Output"`.
+- **`royfrancis/folium`** provides the `folium-typst` output format for NBIS PDF reports.
+
+### Folium Typst PDF
+
+The [quarto-typst-folium extension](https://github.com/royfrancis/quarto-typst-folium) supplies a Typst report template with a cover page, contributors grouped by role, customizable logo and background images, and Font Awesome support. Its defaults include A4 paper, Lato, one column, section numbering, a table of contents, and report margins.
+
+This project already includes the extension. Enable it in a page's frontmatter alongside HTML, or use it as the only output format:
+
+```yaml
+format:
+  html: default
+  folium-typst: default
+```
+
+The cover uses `title`, `subtitle`, `description`, and `date`, plus the user-supplied `nbis.id` and `nbis.contributors` metadata described above. Presentation settings live under `folium` and inherit extension defaults:
+
+| Key | Default |
+|---|---|
+| `folium.class` | `"NBIS REPORT"` |
+| `folium.logo.path` | bundled NBIS logo |
+| `folium.logo-height` | `0.8cm` |
+| `folium.background.path` | bundled NBIS background |
+| `folium.font-size` | `12pt` |
+
+Set only the presentation keys you want to change. The extension recursively fills every omitted `folium` value from its defaults:
+
+```yaml
+folium:
+  class: "NBIS PROJECT PLAN"
+```
+
+The extension does not add defaults to or merge the `nbis` map.
+
+Standard Quarto format settings are overridden under `format` as usual:
+
+```yaml
+format:
+  folium-typst:
+    papersize: us-letter
+    columns: 2
+    toc: false
+```
+
+Render only the PDF with:
+
+```bash
+quarto render reports/report.qmd --to folium-typst
+```
+
+::: {.callout-caution}
+HTML-specific output is not converted to Typst. HTML widgets, JavaScript visualizations, raw HTML, and HTML-only extension output may be omitted from the PDF or cause the PDF render to fail. Use a static figure, table, or text alternative for PDF and separate the variants with conditional content:
+
+````markdown
+::: {.content-visible when-format="html"}
+HTML-specific output
+:::
+
+::: {.content-hidden when-format="html"}
+Static PDF alternative
+:::
+````
+:::
 
 For a fresh template without the committed `_extensions/` directory, install them once:
 
@@ -142,7 +208,10 @@ For a fresh template without the committed `_extensions/` directory, install the
 quarto add quarto-ext/fontawesome
 quarto add mcanouil/quarto-collapse-output@1.4.0
 quarto add royfrancis/quarto-accordion
+quarto add royfrancis/quarto-typst-folium
 ```
+
+To start a separate project from the complete Typst report template instead, run `quarto use template royfrancis/quarto-typst-folium`.
 
 ## Building and publishing
 
