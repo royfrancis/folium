@@ -25,7 +25,7 @@ For a demo site, see [here](https://royfrancis.github.io/folium).
 
   ```
   quarto add quarto-ext/fontawesome
-  quarto add mcanouil/quarto-collapse-output@1.4.0
+  quarto add mcanouil/quarto-collapse-output
   quarto add royfrancis/quarto-accordion
   ```
 

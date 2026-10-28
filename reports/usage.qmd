@@ -206,7 +206,7 @@ For a fresh template without the committed `_extensions/` directory, install the
 
 ```
 quarto add quarto-ext/fontawesome
-quarto add mcanouil/quarto-collapse-output@1.4.0
+quarto add mcanouil/quarto-collapse-output
 quarto add royfrancis/quarto-accordion
 quarto add royfrancis/quarto-typst-folium
 ```
