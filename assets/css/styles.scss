@@ -4,12 +4,12 @@
 
 /* colours, fonts, size ---------------------------------------------------------------------- */
 
-$primary: #95b540; /* accent: borders, highlights, decoration */
-$primary-strong: #567318; /* text and fills, 5.4:1 against white */
+$primary: #95b540;
+$primary-strong: #567318; /* darker accent */
 $secondary: #BDD775;
 $tertiary: #E9F2D1;
 $tertiary-light: #F4F8E8;
-$link-color: $primary-strong;
+$link-color: $primary;
 $body-color: #1c2833;
 $code-color: #496985;
 $code-block-bg: WhiteSmoke;
