@@ -290,7 +290,7 @@ code {
   white-space: pre-wrap !important;
 }
 
-/* callout icons and titles: icons are Font Awesome Free 6.5.1 (CC BY 4.0, https://fontawesome.com/license/free), the important icon is custom; both are tinted with the callout type color */
+/* callout icons: Font Awesome Free 6.5.1 (CC BY 4.0, https://fontawesome.com/license/free), the important icon is custom; all use the text color */
 
 $callout-icons: (
   "note": '<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" fill="currentColor" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>',
@@ -300,30 +300,11 @@ $callout-icons: (
   "important": '<svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" fill="currentColor" viewBox="0 0 512 512"><path fill-rule="evenodd" d="M64 0h384a64 64 0 0 1 64 64v384a64 64 0 0 1-64 64H64a64 64 0 0 1-64-64V64A64 64 0 0 1 64 0zM256 112a32 32 0 0 1 32 32v128a32 32 0 0 1-64 0V144a32 32 0 0 1 32-32zM256 336a40 40 0 1 1 0 80a40 40 0 1 1 0-80z"/></svg>'
 );
 
-$callout-icon-colors: (
-  "note": $callout-color-note,
-  "tip": $callout-color-tip,
-  "warning": $callout-color-warning,
-  "caution": $callout-color-caution,
-  "important": $callout-color-important
-);
+$callout-icon-color: str-replace("#{$body-color}", "#", "%23");
 
 @each $name, $icon in $callout-icons {
-  $shifted-color: #{shift-color(map-get($callout-icon-colors, $name), $callout-icon-scale)};
-  $shifted-color-svg: str-replace($shifted-color, "#", "%23");
-  $body-color-svg: str-replace(#{$body-color}, "#", "%23");
-
   div.callout-#{$name} .callout-icon::before {
-    background-image: #{"url('data:image/svg+xml," + str-replace($icon, 'fill="currentColor"', 'style="fill: #{$shifted-color-svg}"') + "')"} !important;
-  }
-
-  div.callout-#{$name}.callout-style-simple .callout-icon::before {
-    background-image: #{"url('data:image/svg+xml," + str-replace($icon, 'fill="currentColor"', 'style="fill: #{$body-color-svg}"') + "')"} !important;
-  }
-
-  /* the title takes the icon color, so it also works when icons are turned off */
-  div.callout-#{$name} .callout-title-container {
-    color: #{$shifted-color};
+    background-image: #{"url('data:image/svg+xml," + str-replace($icon, 'fill="currentColor"', 'style="fill: #{$callout-icon-color}"') + "')"} !important;
   }
 }
 
@@ -331,7 +312,7 @@ $callout-icon-colors: (
   padding-top: 0 !important;
 }
 
-/* the callout type shows in the icon, title and header tint, not in a colored left border */
+/* the callout type shows in the header tint, not in a colored left border */
 div.callout.callout {
   border-left-color: $table-border-color;
 }
